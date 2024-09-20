@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T13:45:18.170536"
+    },
+    {
+        "editor_id": 2172449042784,
+        "editor_class": "Editor",
+        "text_widget_id": 2172449042736,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-21T13:45:18.201753"
+    },
+    {
+        "editor_id": 2172449042784,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\tasu.py",
+        "sequence": "Open",
+        "text_widget_id": 2172449042736,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-21T13:45:18.201753"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2172449042736,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-21T13:45:18.201753"
+    },
+    {
+        "index": "1.0",
+        "text": "def arvuta_tasu(x, y):\n    #x on t\u00f6\u00f6tatud tundide arv\n    #y on tavaline tasum\u00e4\u00e4r tunnis\n    #40 on norm\n    if x < 40:\n        z = x * y\n        return z\n    else:\n        p = x - 40\n        z = 40 * y + p * (1.5 * y)\n        return z\n\nA = input(\"Esimene t\u00f6\u00f6taja: \")\nAa = float(input(\"Tema tundide arv: \"))\nAb = float(input(\"Tasum\u00e4\u00e4r: \"))\nB = input(\"Teise nimi: \")\nBa = float(input(\"Tunnid: \"))\nBb = float(input(\"M\u00e4\u00e4r: \"))\n\nApalk = float(arvuta_tasu(Aa, Ab))\nBpalk = float(arvuta_tasu(Ba, Bb))\nif Apalk > Bpalk:\n    print(A, \"saab suuremat tasu kui\", B)\nelif Bpalk > Apalk:\n    print(B, \"saab suuremat tasu kui\", A)\nelse:\n    print(\"Nad saavad sama palju\")\n",
+        "tags": "None",
+        "text_widget_id": 2172449042736,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-21T13:45:18.201753"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T13:45:18.217305"
+    },
+    {
+        "widget_id": 2172408475808,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T13:45:18.358361"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2172448902112,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T13:45:18.640994"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2172448902112,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T13:45:18.640994"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2172448902112,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T13:45:18.640994"
+    },
+    {
+        "widget_id": 2172408475808,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T13:45:24.576182"
+    },
+    {
+        "widget_id": 2172408475808,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T13:46:27.916506"
+    }
+]

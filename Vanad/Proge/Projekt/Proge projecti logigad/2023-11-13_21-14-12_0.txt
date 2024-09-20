@@ -1,0 +1,94 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:14:12.435322"
+    },
+    {
+        "editor_id": 2331797270880,
+        "editor_class": "Editor",
+        "text_widget_id": 2331797270832,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-13T21:14:12.482952"
+    },
+    {
+        "editor_id": 2331797270880,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded\\organize_files.py",
+        "sequence": "Open",
+        "text_widget_id": 2331797270832,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-13T21:14:12.485343"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2331797270832,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-13T21:14:12.485853"
+    },
+    {
+        "index": "1.0",
+        "text": "import os\nimport shutil\nfrom datetime import datetime\n\ndef organize_python_files(directory):\n    # Get the list of Python files in the directory\n    python_files = [f for f in os.listdir(directory) if f.endswith('.py') and f != 'organize_files.py']\n\n    for file in python_files:\n        # Get the last modification time of the file\n        file_path = os.path.join(directory, file)\n        mod_time = os.path.getmtime(file_path)\n\n        # Convert the modification time to a readable format\n        mod_date = datetime.fromtimestamp(mod_time).strftime('%Y-%m-%d')\n\n        # Create a folder with the modification date if it doesn't exist\n        folder_path = os.path.join(directory, mod_date)\n        os.makedirs(folder_path, exist_ok=True)\n\n        # Move the file to the corresponding folder\n        new_file_path = os.path.join(folder_path, file)\n        shutil.move(file_path, new_file_path)\n\nif __name__ == \"__main__\":\n    current_directory = os.path.dirname(os.path.abspath(__file__))\n    organize_python_files(current_directory)\n    print(\"Files organized successfully.\")\n",
+        "tags": "None",
+        "text_widget_id": 2331797270832,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-13T21:14:12.495383"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:14:12.498381"
+    },
+    {
+        "widget_id": 2331756703904,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-13T21:14:12.696598"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2331797130208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:14:13.022033"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2331797130208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:14:13.023042"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2331797130208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:14:13.024040"
+    }
+]

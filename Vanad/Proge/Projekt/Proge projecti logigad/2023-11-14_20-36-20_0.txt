@@ -1,0 +1,722 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T20:36:21.052127"
+    },
+    {
+        "editor_id": 2589269077984,
+        "editor_class": "Editor",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-14T20:36:21.087958"
+    },
+    {
+        "editor_id": 2589269077984,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py",
+        "sequence": "Open",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-14T20:36:21.091937"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-14T20:36:21.093936"
+    },
+    {
+        "index": "1.0",
+        "text": "from pathlib import Path\nimport pygame\nimport os\nimport shutil\nimport threading\nimport cv2\nstate = 0\nprint(\"\"\"\n\n\n\n\n\"\"\")\ndef peata_laul(laulu_nimi, laulu_formaat):\n    pygame.mixer.stop()\n    Path((str(Path.cwd())) + \"/J\u00e4rjekorras/\" + laulu_nimi + laulu_formaat).rename(str(Path.cwd()) + \"/K\u00f5ik/\" + laulu_nimi + laulu_formaat)\n    \ndef m\u00e4ngi_laulu(laulu_nimi, laulu_formaat, lugude_list):\n    pygame.mixer.quit()\n    pygame.mixer.init()\n    laulH = pygame.mixer.Sound(str(Path.cwd()) + \"/K\u00f5ik/\" + lugude_list[laulu_nimi] + laulu_formaat)\n    laulH.play()\n\ndef k\u00fcsi_inputti(lugude_list):\n    laulu_nimi = str(input('\\nSisesta j\u00e4rgmise laulu number: '))\n    print(\"M\u00e4ngin kohe(K)\\nLisan j\u00e4rjekorda(J)\")\n    valik = input(\": \")\n    if laulu_nimi not in lugude_list:\n        print(\"SIIA LISAMA HOIATUSE JA UUESTI K\u00dcSIMA !!!!\")\n    else:\n        if valik == \"K\":\n            muusika_l\u00f5im = threading.Thread(target=m\u00e4ngi_laulu, args=(laulu_nimi, laulu_formaat, lugude_list))\n            muusika_l\u00f5im.start()\n            state = 3\n        elif valik == \"J\":\n            state = 1\n            \ndef video_pikkus(faili_asukoht):\n    cap = cv2.VideoCapture(faili_asukoht)\n    fps = cap.get(cv2.CAP_PROP_FRAME_COUNT)\n    k\u00f5ik_kaadrid = cap.get(cv2.CAP_PROP_FRAME_COUNT)\n    pikkus = k\u00f5ik_kaadrid / fps\n    return pikkus\n    \n#muusika_l\u00f5im = threading.Thread(target=m\u00e4ngi_laulu, args=(laulu_nimi, laulu_formaat))\n\n\nwhile True:\n    if state == 0:\n        j\u00e4rjekord = []\n        kaust_k\u00f5ik = 'K\u00f5ik'\n        lugude_nimekiri_k\u00f5ik = os.listdir(kaust_k\u00f5ik)\n        kord = 0\n        laulu_formaat = '.mp3'\n        while True:\n            kord += 1\n            mitmes_lugu = 0\n            lugude_list = {}\n            print(\"Leitud lood: \\n\")\n            for lugu in lugude_nimekiri_k\u00f5ik:\n                mitmes_lugu += 1\n                lugu = lugu.strip('.mp3')\n                lugude_list[str(mitmes_lugu)] = lugu\n                print(str(mitmes_lugu) + \". \" + lugu)\n            if kord == 1:\n                laulu_nimi = str(input('\\nSisesta laulu number: '))\n                if lugude_list[laulu_nimi] not in lugude_list.values():\n                    break #Peab lisama hoiatuse ja uuesti k\u00fcsima !!!!!\n                else:\n                    laulu_pikkus = video_pikkus(str(Path.cwd()) + \"/K\u00f5ik/\" + lugude_list[laulu_nimi] + laulu_formaat)\n                    print(laulu_pikkus)\n                    muusika_l\u00f5im = threading.Thread(target=m\u00e4ngi_laulu, args=(laulu_nimi, laulu_formaat, lugude_list))\n                    muusika_l\u00f5im.start()\n                    pass\n            else:\n                laulu_nimi = str(input('\\nSisesta j\u00e4rgmise laulu number: '))\n                print(\"M\u00e4ngin kohe(K)\\nLisan j\u00e4rjekorda(J)\")\n                valik = input(\": \")\n                if laulu_nimi not in lugude_list:\n                    print(\"#SIIA LISAMA HOIATUSE JA UUESTI K\u00dcSIMA !!!!\")\n                else:\n                    if valik == \"K\":\n                        muusika_l\u00f5im = threading.Thread(target=m\u00e4ngi_laulu, args=(laulu_nimi, laulu_formaat, lugude_list))\n                        muusika_l\u00f5im.start()\n                    elif valik == \"J\":\n                        state = 1\n                        break\n\n    elif state == 1:\n        j\u00e4rjekord.append(laulu_nimi)\n        print(\"Leitud lood: \\n\")\n        for lugu in lugude_nimekiri_k\u00f5ik:\n            mitmes_lugu += 1\n            lugu = lugu.strip('.mp3')\n            lugude_list[str(mitmes_lugu)] = lugu\n            print(str(mitmes_lugu) + \". \" + lugu)\n        inputti_l\u00f5im = threading.Thread(target=k\u00fcsi_inputti, args=(lugude_list))\n        inputti_l\u00f5im.start()\n        while True:\n            print(pygame.mixer.music.get_busy())\n            #if pygame.mixer.music.get_busy():\n                #j\u00e4rjekord.pop(0)\n              #  if bool(j\u00e4rjekord) == False:\n             #       state = 0\n            #    else:\n             #       laulu_nimi = j\u00e4rjekord[0]\n             #       muusika_l\u00f5im = threading.Thread(target=m\u00e4ngi_laulu, args=(laulu_nimi, laulu_formaat, lugude_list))\n             #       muusika_l\u00f5im.start()\n        \n        \n\n",
+        "tags": "None",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-14T20:36:21.110148"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T20:36:21.115264"
+    },
+    {
+        "widget_id": 2589227856032,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-14T20:36:21.432597"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:21.928763"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:21.929273"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:21.929273"
+    },
+    {
+        "widget_id": 2589269331680,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:36:22.741312"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:22.783652"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run proge_projekt.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:22.785159"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:22.785159"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:22.786166"
+    },
+    {
+        "cmd_line": "%Run proge_projekt.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-14T20:36:22.786166"
+    },
+    {
+        "command_text": "%Run proge_projekt.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-14T20:36:22.882094"
+    },
+    {
+        "index": "3.0",
+        "text": "pygame 2.5.2 (SDL 2.28.3, Python 3.10.11)\nHello from the pygame community. ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.137476"
+    },
+    {
+        "index": "4.33",
+        "text": "https://www.pygame.org/contribute.html",
+        "tags": "('io', 'stdout', 'io_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.139494"
+    },
+    {
+        "index": "4.71",
+        "text": "\n",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.140486"
+    },
+    {
+        "index": "5.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.197946"
+    },
+    {
+        "index": "6.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_3111637958720')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.197946"
+    },
+    {
+        "index": "6.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py\", line 6, in <module>",
+        "tags": "('io', 'stderr', 'frame_3111637958720', 'stacktrace_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.198954"
+    },
+    {
+        "index": "6.107",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_3111637958720')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.198954"
+    },
+    {
+        "index": "7.0",
+        "text": "    import cv2\n",
+        "tags": "('io', 'stderr', 'frame_3111637958720')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.199984"
+    },
+    {
+        "index": "8.0",
+        "text": "ModuleNotFoundError: No module named 'cv2'\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.199984"
+    },
+    {
+        "index": "9.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:23.200955"
+    },
+    {
+        "widget_id": 2589269078128,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:36:25.476205"
+    },
+    {
+        "index1": "6.9",
+        "index2": "None",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-14T20:36:26.036628"
+    },
+    {
+        "widget_id": 2589269331680,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:36:27.329821"
+    },
+    {
+        "editor_id": 2589269077984,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py",
+        "sequence": "Save",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-14T20:36:27.406972"
+    },
+    {
+        "index1": "9.4",
+        "index2": "10.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.413164"
+    },
+    {
+        "index": "9.4",
+        "text": "%Run proge_projekt.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.414423"
+    },
+    {
+        "index1": "10.0",
+        "index2": "10.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.415976"
+    },
+    {
+        "index1": "1.0",
+        "index2": "9.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.415976"
+    },
+    {
+        "cmd_line": "%Run proge_projekt.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-14T20:36:27.416990"
+    },
+    {
+        "command_text": "%Run proge_projekt.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-14T20:36:27.520149"
+    },
+    {
+        "index": "2.0",
+        "text": "pygame 2.5.2 (SDL 2.28.3, Python 3.10.11)\nHello from the pygame community. ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.789175"
+    },
+    {
+        "index": "3.33",
+        "text": "https://www.pygame.org/contribute.html",
+        "tags": "('io', 'stdout', 'io_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.790169"
+    },
+    {
+        "index": "3.71",
+        "text": "\n",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.790169"
+    },
+    {
+        "index": "4.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.851582"
+    },
+    {
+        "index": "5.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2764391333952')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.852937"
+    },
+    {
+        "index": "5.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py\", line 6, in <module>",
+        "tags": "('io', 'stderr', 'frame_2764391333952', 'stacktrace_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.852937"
+    },
+    {
+        "index": "5.107",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2764391333952')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.852937"
+    },
+    {
+        "index": "6.0",
+        "text": "    import cv\n",
+        "tags": "('io', 'stderr', 'frame_2764391333952')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.854055"
+    },
+    {
+        "index": "7.0",
+        "text": "ModuleNotFoundError: No module named 'cv'\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.854596"
+    },
+    {
+        "index": "8.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:36:27.855126"
+    },
+    {
+        "widget_id": 2589227856032,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-14T20:36:32.709500"
+    },
+    {
+        "widget_id": 2589247184112,
+        "widget_class": "EnhancedText",
+        "text_widget_id": 2589247184112,
+        "text_widget_class": "EnhancedText",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:37:22.108789"
+    },
+    {
+        "widget_id": 2589247177536,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:37:23.707920"
+    },
+    {
+        "widget_id": 2589247190208,
+        "widget_class": "Frame",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:37:40.186100"
+    },
+    {
+        "widget_id": 2589247177200,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:37:40.892925"
+    },
+    {
+        "widget_id": 2589227856032,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-14T20:37:40.978199"
+    },
+    {
+        "index": "6.9",
+        "text": "2",
+        "tags": "None",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-14T20:37:48.518529"
+    },
+    {
+        "widget_id": 2589269331680,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T20:37:49.916116"
+    },
+    {
+        "editor_id": 2589269077984,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py",
+        "sequence": "Save",
+        "text_widget_id": 2589269078128,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-14T20:37:50.026686"
+    },
+    {
+        "index1": "8.4",
+        "index2": "9.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.033815"
+    },
+    {
+        "index": "8.4",
+        "text": "%Run proge_projekt.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.035385"
+    },
+    {
+        "index1": "9.0",
+        "index2": "9.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.037663"
+    },
+    {
+        "index1": "1.0",
+        "index2": "8.0",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.039721"
+    },
+    {
+        "cmd_line": "%Run proge_projekt.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-14T20:37:50.039721"
+    },
+    {
+        "command_text": "%Run proge_projekt.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-14T20:37:50.153622"
+    },
+    {
+        "index": "2.0",
+        "text": "pygame 2.5.2 (SDL 2.28.3, Python 3.10.11)\nHello from the pygame community. ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.453615"
+    },
+    {
+        "index": "3.33",
+        "text": "https://www.pygame.org/contribute.html",
+        "tags": "('io', 'stdout', 'io_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.453615"
+    },
+    {
+        "index": "3.71",
+        "text": "\n",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.455124"
+    },
+    {
+        "index": "4.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.515991"
+    },
+    {
+        "index": "5.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2272190742592')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.516978"
+    },
+    {
+        "index": "5.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\progeprojekt\\(Programmi_nimi)\\proge_projekt.py\", line 6, in <module>",
+        "tags": "('io', 'stderr', 'frame_2272190742592', 'stacktrace_hyperlink')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.516978"
+    },
+    {
+        "index": "5.107",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2272190742592')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.518161"
+    },
+    {
+        "index": "6.0",
+        "text": "    import cv2\n",
+        "tags": "('io', 'stderr', 'frame_2272190742592')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.519167"
+    },
+    {
+        "index": "7.0",
+        "text": "ModuleNotFoundError: No module named 'cv2'\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.519167"
+    },
+    {
+        "index": "8.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2589268937696,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T20:37:50.521168"
+    }
+]

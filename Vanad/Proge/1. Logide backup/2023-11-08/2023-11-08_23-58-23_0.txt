@@ -1,0 +1,664 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-08T23:58:23.777627"
+    },
+    {
+        "editor_id": 1842616053824,
+        "editor_class": "Editor",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-08T23:58:23.806902"
+    },
+    {
+        "editor_id": 1842616053824,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6.py",
+        "sequence": "Open",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-08T23:58:23.810366"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-08T23:58:23.810366"
+    },
+    {
+        "index": "1.0",
+        "text": "def erinevad_s\u00fcmbolid(s\u00f5ne):\n    dic = set(s\u00f5ne)\n    return dic\n\ndef s\u00fcmbolite_sagedus(s\u00f5ne):\n    s\u00f5nel = list(s\u00f5ne)\n    dic = set(s\u00f5ne)\n    booja = {}\n    for i in dic:\n        booja[i] = s\u00f5nel.count(i)\n    return booja\n    \ndef grupeeri(s\u00f5ne):\n    s\u00f5nel = list(s\u00f5ne)\n    s\u00f5nes = set(s\u00f5ne)\n    s\u00f5nes = list(s\u00f5nes)\n    t\u00e4ht_list = []\n    m\u00e4lu = []\n    for i in range(0, len(s\u00f5nes)):\n        m\u00e4lu.append(s\u00f5nes[i])\n        m\u00e4lu.append(s\u00f5nel.count(s\u00f5nes[i]))\n        m\u00e4lu = tuple(m\u00e4lu)\n        t\u00e4ht_list.append(m\u00e4lu)\n        m\u00e4lu = []\n    t\u00e4ish\u00e4\u00e4likud = \"aeiou\u00f6\u00e4\u00f5\u00fcAEIOU\u00d6\u00c4\u00d5\u00dc\"\n    kaash\u00e4\u00e4likud = \"qwrtyplkjhgfdszxcvbnmQWRTYPLKJHGFDSZXCVBNM\"\n    l\u00f5pptik = {\"T\u00e4ish\u00e4\u00e4likud\": {}, \"Kaash\u00e4\u00e4likud\": {}, \"Muud\": {}}\n    for i in t\u00e4ht_list:\n        i = list(i)\n        if t\u00e4ish\u00e4\u00e4likud.find(i[0]) != -1:\n            m\u00e4lu = list(l\u00f5pptik[\"T\u00e4ish\u00e4\u00e4likud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"T\u00e4ish\u00e4\u00e4likud\": m\u00e4lu})\n            m\u00e4lu = []\n        elif kaash\u00e4\u00e4likud.find(i[0]) != -1:\n            m\u00e4lu = list(l\u00f5pptik[\"Kaash\u00e4\u00e4likud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"Kaash\u00e4\u00e4likud\": m\u00e4lu})\n            m\u00e4lu = []\n        else:\n            m\u00e4lu = list(l\u00f5pptik[\"Muud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"Muud\": m\u00e4lu})\n            m\u00e4lu = []\n    return l\u00f5pptik",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:58:23.821849"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-08T23:58:23.826127"
+    },
+    {
+        "widget_id": 1842575093920,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-08T23:58:24.057341"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:24.408325"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:24.408980"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:24.410016"
+    },
+    {
+        "widget_id": 1842615912720,
+        "widget_class": "AutomaticPanedWindow",
+        "sequence": "<Button-1>",
+        "time": "2023-11-08T23:58:34.764327"
+    },
+    {
+        "widget_id": 1842575093920,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-08T23:58:40.098318"
+    },
+    {
+        "widget_id": 1842575093920,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-08T23:59:50.475177"
+    },
+    {
+        "widget_id": 1842616053968,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-11-08T23:59:53.822119"
+    },
+    {
+        "index": "48.18",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:56.379213"
+    },
+    {
+        "index": "49.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:56.387072"
+    },
+    {
+        "index1": "49.0",
+        "index2": "49.4",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-08T23:59:56.391661"
+    },
+    {
+        "index": "49.0",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:57.269732"
+    },
+    {
+        "index": "50.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:57.498863"
+    },
+    {
+        "index": "50.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:57.643991"
+    },
+    {
+        "index": "50.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:57.867236"
+    },
+    {
+        "index": "50.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:58.797081"
+    },
+    {
+        "index": "50.4",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:58.888476"
+    },
+    {
+        "index": "50.5",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:59.279570"
+    },
+    {
+        "index": "50.6",
+        "text": "g",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:59.666273"
+    },
+    {
+        "index": "50.7",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:59:59.899891"
+    },
+    {
+        "index": "50.8",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.021347"
+    },
+    {
+        "index": "50.9",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.378515"
+    },
+    {
+        "index": "50.10",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.522205"
+    },
+    {
+        "index": "50.11",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.659614"
+    },
+    {
+        "index": "50.12",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.797215"
+    },
+    {
+        "index": "50.13",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:00.898685"
+    },
+    {
+        "index": "50.14",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:01.441513"
+    },
+    {
+        "index": "50.15",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:02.780316"
+    },
+    {
+        "index": "50.16",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:03.057211"
+    },
+    {
+        "index": "50.17",
+        "text": "s",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:03.293028"
+    },
+    {
+        "index": "50.18",
+        "text": "s",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:03.471422"
+    },
+    {
+        "index": "50.19",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:03.618806"
+    },
+    {
+        "index": "50.20",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:03.919588"
+    },
+    {
+        "index1": "50.20",
+        "index2": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-09T00:00:04.309564"
+    },
+    {
+        "index": "50.20",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:04.498446"
+    },
+    {
+        "index": "50.21",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:04.758310"
+    },
+    {
+        "index": "50.22",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:04.956352"
+    },
+    {
+        "index": "50.23",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:05.131505"
+    },
+    {
+        "index": "50.24",
+        "text": "s",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:05.286879"
+    },
+    {
+        "index": "50.25",
+        "text": "s",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:05.407197"
+    },
+    {
+        "index": "50.26",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:05.608471"
+    },
+    {
+        "index": "50.27",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:06.239217"
+    },
+    {
+        "index": "50.28",
+        "text": "h",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:06.546520"
+    },
+    {
+        "index": "50.29",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:06.679008"
+    },
+    {
+        "index": "50.30",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:06.826780"
+    },
+    {
+        "index": "50.31",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:07.240984"
+    },
+    {
+        "index": "50.32",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:07.667845"
+    },
+    {
+        "index": "50.33",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:00:08.189992"
+    },
+    {
+        "widget_id": 1842616307520,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-09T00:00:09.811784"
+    },
+    {
+        "editor_id": 1842616053824,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6.py",
+        "sequence": "Save",
+        "text_widget_id": 1842616053968,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-09T00:00:09.887935"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:09.937279"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run 'Kodut\u00f6\u00f6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:09.946806"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:09.946806"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:09.949718"
+    },
+    {
+        "cmd_line": "%Run 'Kodut\u00f6\u00f6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-09T00:00:09.949718"
+    },
+    {
+        "command_text": "%Run 'Kodut\u00f6\u00f6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-09T00:00:10.047905"
+    },
+    {
+        "index": "3.0",
+        "text": "{'T\u00e4ish\u00e4\u00e4likud': {('i', 1), ('o', 1), ('a', 5)}, 'Kaash\u00e4\u00e4likud': {('s', 4), ('p', 1), ('h', 1)}, 'Muud': {(' ', 2)}}\n",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:10.077070"
+    },
+    {
+        "index": "4.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 1842615913536,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:00:10.077070"
+    },
+    {
+        "widget_id": 1842575093920,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-09T00:00:13.043742"
+    },
+    {
+        "widget_id": 1842575093920,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-09T00:02:12.999589"
+    }
+]

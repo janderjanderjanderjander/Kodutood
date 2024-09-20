@@ -1,0 +1,136 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T17:11:24.067999"
+    },
+    {
+        "editor_id": 2335158808928,
+        "editor_class": "Editor",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-23T17:11:24.099206"
+    },
+    {
+        "editor_id": 2335158808928,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\mdea.py",
+        "sequence": "Open",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T17:11:24.099206"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T17:11:24.099206"
+    },
+    {
+        "index": "1.0",
+        "text": "import sympy\nfrom sympy.abc import x\n\nprint(sympy.solve((950 + x + 167) / 3 == 762.50))\n",
+        "tags": "None",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T17:11:24.117416"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T17:11:24.117416"
+    },
+    {
+        "widget_id": 2335117324448,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T17:11:24.337193"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2335158668256,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T17:11:24.638921"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2335158668256,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T17:11:24.639428"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2335158668256,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T17:11:24.639428"
+    },
+    {
+        "widget_id": 2335158808880,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T17:11:25.642164"
+    },
+    {
+        "index1": "1.0",
+        "index2": "5.0",
+        "text_widget_id": 2335158808880,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T17:11:26.427391"
+    },
+    {
+        "widget_id": 2335117324448,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T17:11:32.686560"
+    },
+    {
+        "widget_id": 2335117324448,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T17:12:09.115582"
+    },
+    {
+        "widget_id": 2335117324448,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T17:12:10.994076"
+    },
+    {
+        "widget_id": 2335117324448,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T17:12:12.352744"
+    }
+]

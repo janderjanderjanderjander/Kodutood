@@ -1,0 +1,3537 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T21:55:02.118537"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-23T21:55:02.136093"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Open",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T21:55:02.136093"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:55:02.136093"
+    },
+    {
+        "index": "1.0",
+        "text": "def p\u00e4evade_arv(x):\n    if x == 1 or x == 3 or x == 5 or x == 7 or x == 8 or x == 10 or x == 12:\n        return 31\n    elif x == 4 or x == 6 or x == 9 or x == 11:\n        return 30\n    elif x == 2:\n        return 28\n    else:\n        return -1\n\n\nwhile True:\n    m = (input(\"Sisesta kuu number: \"))\n    if m == \"l\u00f5pp\":\n        break\n    else:\n        try:\n            m = int(m)\n            if p\u00e4evade_arv(m) == -1:\n                print(\"Kuu number peab j\u00e4\u00e4ma l\u00f5iku 1\u201312\")\n            else:\n                print(\"Selles kuus on \", p\u00e4evade_arv(m), \"p\u00e4eva\")\n        except:\n            print(\"Ebakorrektne number\")\nprint(\"Programm l\u00f5petas t\u00f6\u00f6\")",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T21:55:02.151830"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T21:55:02.151830"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T21:55:02.333294"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:02.626491"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:02.626491"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:02.626491"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:03.364480"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:03.599743"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:03.759136"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:03.917370"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:04.094805"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:04.804075"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:05.931603"
+    },
+    {
+        "index1": "1.0",
+        "index2": "16.9",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:55:06.919316"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:07.981050"
+    },
+    {
+        "index1": "1.0",
+        "index2": "10.29",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:55:08.843295"
+    },
+    {
+        "index": "1.0",
+        "text": "def arvuta_tasu(x, y):\n    #x on t\u00f6\u00f6tatud tundide arv\n    #y on tavaline tasum\u00e4\u00e4r tunnis\n    #40 on norm\n    if x < 40:\n        z = x * y\n        return z\n    else:\n        p = x - 40\n        z = 40 * y + p * (1.5 * y)\n        return z\n\nA = input(\"Esimene t\u00f6\u00f6taja: \")\nAa = float(input(\"Tema tundide arv: \"))\nAb = float(input(\"Tasum\u00e4\u00e4r: \"))\nB = input(\"Teise nimi: \")\nBa = float(input(\"Tunnid: \"))\nBb = float(input(\"M\u00e4\u00e4r: \"))\n\nApalk = float(arvuta_tasu(Aa, Ab))\nBpalk = float(arvuta_tasu(Ba, Bb))\nif Apalk > Bpalk:\n    print(A, \"saab suuremat tasu kui\", B)\nelif Bpalk > Apalk:\n    print(B, \"saab suuremat tasu kui\", A)\nelse:\n    print(\"Nad saavad sama palju\")\n",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T21:55:10.573329"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T21:55:10.573329"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:11.947755"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T21:55:12.166278"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:12.213299"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:12.213299"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:12.213299"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:12.213299"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T21:55:12.213299"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T21:55:12.310356"
+    },
+    {
+        "index": "3.0",
+        "text": "Esimene t\u00f6\u00f6taja: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:12.350052"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:13.229000"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:55:15.495430"
+    },
+    {
+        "index": "3.17",
+        "text": "M",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:18.489883"
+    },
+    {
+        "index": "3.18",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:18.607063"
+    },
+    {
+        "index": "3.19",
+        "text": "r",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:19.027086"
+    },
+    {
+        "index": "3.20",
+        "text": "l",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:19.361325"
+    },
+    {
+        "index": "3.21",
+        "text": "y",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:19.583000"
+    },
+    {
+        "index": "3.22",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:19.965369"
+    },
+    {
+        "input_text": "Merly\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:19.965369"
+    },
+    {
+        "index": "4.0",
+        "text": "Tema tundide arv: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:19.996137"
+    },
+    {
+        "index": "4.18",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:27.907478"
+    },
+    {
+        "index": "4.19",
+        "text": "6",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:28.065107"
+    },
+    {
+        "index": "4.20",
+        "text": "8",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:28.413088"
+    },
+    {
+        "index": "4.21",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:28.816341"
+    },
+    {
+        "input_text": "168\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:28.816341"
+    },
+    {
+        "index": "5.0",
+        "text": "Tasum\u00e4\u00e4r: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:28.831881"
+    },
+    {
+        "index": "5.10",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:32.267977"
+    },
+    {
+        "index": "5.11",
+        "text": ".",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:32.396019"
+    },
+    {
+        "index": "5.12",
+        "text": "2",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:32.797335"
+    },
+    {
+        "index": "5.13",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:33.219061"
+    },
+    {
+        "index": "5.14",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:33.418746"
+    },
+    {
+        "input_text": "5.20\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:33.424302"
+    },
+    {
+        "index": "6.0",
+        "text": "Teise nimi: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:33.446540"
+    },
+    {
+        "index": "6.12",
+        "text": "R",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.029174"
+    },
+    {
+        "index": "6.13",
+        "text": "a",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.222795"
+    },
+    {
+        "index": "6.14",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.302031"
+    },
+    {
+        "index": "6.15",
+        "text": "d",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.444357"
+    },
+    {
+        "index": "6.16",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.523213"
+    },
+    {
+        "index": "6.17",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.776376"
+    },
+    {
+        "input_text": "Raido\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:34.776376"
+    },
+    {
+        "index": "7.0",
+        "text": "Tunnid: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:34.795356"
+    },
+    {
+        "index": "7.8",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:49.310340"
+    },
+    {
+        "index": "7.9",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:49.532966"
+    },
+    {
+        "index": "7.10",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:50.025590"
+    },
+    {
+        "input_text": "50\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:50.025590"
+    },
+    {
+        "index": "8.0",
+        "text": "M\u00e4\u00e4r: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:50.057268"
+    },
+    {
+        "index": "8.6",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:53.856156"
+    },
+    {
+        "index": "8.7",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:53.933203"
+    },
+    {
+        "index": "8.8",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:54.368745"
+    },
+    {
+        "input_text": "10\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:55:54.368745"
+    },
+    {
+        "index": "9.0",
+        "text": "Merly saab suuremat tasu kui Raido\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:54.400713"
+    },
+    {
+        "index": "10.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:55:54.402181"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T21:56:14.201767"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T21:56:25.771829"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:56:26.810910"
+    },
+    {
+        "index1": "14.16",
+        "index2": "27.34",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:27.711095"
+    },
+    {
+        "index1": "14.15",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.233834"
+    },
+    {
+        "index1": "14.14",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.264902"
+    },
+    {
+        "index1": "14.13",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.298958"
+    },
+    {
+        "index1": "14.12",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.328810"
+    },
+    {
+        "index1": "14.11",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.362464"
+    },
+    {
+        "index1": "14.10",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.402161"
+    },
+    {
+        "index1": "14.9",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.435667"
+    },
+    {
+        "index1": "14.8",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.462712"
+    },
+    {
+        "index1": "14.7",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.504819"
+    },
+    {
+        "index1": "14.6",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.535561"
+    },
+    {
+        "index1": "14.5",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.567396"
+    },
+    {
+        "index1": "14.4",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.599530"
+    },
+    {
+        "index1": "14.3",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.641364"
+    },
+    {
+        "index1": "14.2",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.675477"
+    },
+    {
+        "index1": "14.1",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.709594"
+    },
+    {
+        "index1": "14.0",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.743606"
+    },
+    {
+        "index1": "13.30",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.778040"
+    },
+    {
+        "index1": "13.29",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.812670"
+    },
+    {
+        "index1": "13.28",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.846967"
+    },
+    {
+        "index1": "13.27",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.871626"
+    },
+    {
+        "index1": "13.26",
+        "index2": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:28.902896"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:56:29.768532"
+    },
+    {
+        "index1": "1.0",
+        "index2": "14.0",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:56:30.570159"
+    },
+    {
+        "index": "1.0",
+        "text": "import math\nkook = input(\"Sisesta koogi nimi: \")\nm\u00f5\u00f5t = float(input(\"Sisesta koogi m\u00f5\u00f5t: \"))\nkooki = kook.lower()\nif m\u00f5\u00f5t < 0:\n    print(\"Sellist kooki pagarikoda ei valmista.\")\nelse:\n    if kooki == \"\u0161okolaadikook\":\n        suhe = float(0.05)\n        pindala = float(m\u00f5\u00f5t * m\u00f5\u00f5t * float(math.pi))\n        koogi_hind = round(float(suhe * pindala), 2)\n        print(\"Selle koogi hind on\", koogi_hind, \"eurot\")\n    elif kooki == \"ploomikook\":\n        suhe = float(0.04)\n        pindala = float(m\u00f5\u00f5t * m\u00f5\u00f5t * float(math.pi))\n        koogi_hind = round(float(suhe * pindala), 2)\n        print(\"Selle koogi hind on\", koogi_hind, \"eurot\")\n    elif kooki == \"napoleoni kook\":\n        suhe = float(0.08)\n        pindala = m\u00f5\u00f5t * m\u00f5\u00f5t\n        koogi_hind = round(float(suhe * pindala), 2)\n        print(\"Selle koogi hind on\", koogi_hind, \"eurot\")\n    else:\n        print(\"Sellist kooki pagarikoda ei valmista.\")",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T21:56:31.310487"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T21:56:31.310487"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:56:33.035437"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T21:56:33.161581"
+    },
+    {
+        "index1": "10.4",
+        "index2": "11.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:33.208152"
+    },
+    {
+        "index": "10.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:33.208152"
+    },
+    {
+        "index1": "11.0",
+        "index2": "11.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:33.223872"
+    },
+    {
+        "index1": "1.0",
+        "index2": "10.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:33.223872"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T21:56:33.223872"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T21:56:33.318518"
+    },
+    {
+        "index": "2.0",
+        "text": "Sisesta koogi nimi: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:33.372279"
+    },
+    {
+        "index": "2.20",
+        "text": "n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:39.995363"
+    },
+    {
+        "index": "2.21",
+        "text": "a",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:40.640623"
+    },
+    {
+        "index": "2.22",
+        "text": "p",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:40.901990"
+    },
+    {
+        "index": "2.23",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:41.251872"
+    },
+    {
+        "index": "2.24",
+        "text": "l",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:41.553693"
+    },
+    {
+        "index": "2.25",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:41.695870"
+    },
+    {
+        "index": "2.26",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:41.795010"
+    },
+    {
+        "index": "2.27",
+        "text": "n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:41.988724"
+    },
+    {
+        "index": "2.28",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:42.167198"
+    },
+    {
+        "index": "2.29",
+        "text": " ",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:42.357167"
+    },
+    {
+        "index": "2.30",
+        "text": "k",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:42.594255"
+    },
+    {
+        "index": "2.31",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:42.753696"
+    },
+    {
+        "index": "2.32",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:42.909778"
+    },
+    {
+        "index": "2.33",
+        "text": "k",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:43.042647"
+    },
+    {
+        "index": "2.34",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:43.229739"
+    },
+    {
+        "input_text": "napoleoni kook\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:56:43.229739"
+    },
+    {
+        "index": "3.0",
+        "text": "Sisesta koogi m\u00f5\u00f5t: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:43.247976"
+    },
+    {
+        "index": "3.20",
+        "text": "4",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:54.670391"
+    },
+    {
+        "index": "3.21",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:54.780970"
+    },
+    {
+        "input_text": "4\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:56:54.780970"
+    },
+    {
+        "index": "4.0",
+        "text": "Selle koogi hind on 1.28 eurot\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:54.813135"
+    },
+    {
+        "index": "5.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:56:54.813135"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:57:01.142559"
+    },
+    {
+        "index1": "5.4",
+        "index2": "6.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:01.287083"
+    },
+    {
+        "index": "5.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:01.287083"
+    },
+    {
+        "index1": "6.0",
+        "index2": "6.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:01.297585"
+    },
+    {
+        "index1": "1.0",
+        "index2": "5.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:01.297585"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T21:57:01.297585"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T21:57:01.413326"
+    },
+    {
+        "index": "2.0",
+        "text": "Sisesta koogi nimi: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:01.445449"
+    },
+    {
+        "index": "2.20",
+        "text": "M",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:02.946645"
+    },
+    {
+        "index": "2.21",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:03.087348"
+    },
+    {
+        "index": "2.22",
+        "text": "r",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:03.265000"
+    },
+    {
+        "index": "2.23",
+        "text": "l",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:03.364661"
+    },
+    {
+        "index1": "2.23",
+        "index2": "None",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:04.217458"
+    },
+    {
+        "index1": "2.22",
+        "index2": "None",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:04.376695"
+    },
+    {
+        "index1": "2.21",
+        "index2": "None",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:04.518713"
+    },
+    {
+        "index1": "2.20",
+        "index2": "None",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:04.645628"
+    },
+    {
+        "index": "2.20",
+        "text": "n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:05.229839"
+    },
+    {
+        "index": "2.21",
+        "text": "a",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:05.654142"
+    },
+    {
+        "index": "2.22",
+        "text": "p",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:05.781715"
+    },
+    {
+        "index": "2.23",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.004178"
+    },
+    {
+        "index": "2.24",
+        "text": "l",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.233163"
+    },
+    {
+        "index": "2.25",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.350726"
+    },
+    {
+        "index": "2.26",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.471483"
+    },
+    {
+        "index": "2.27",
+        "text": "n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.688877"
+    },
+    {
+        "index": "2.28",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:06.853629"
+    },
+    {
+        "index": "2.29",
+        "text": " ",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:07.035037"
+    },
+    {
+        "index": "2.30",
+        "text": "k",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:07.227373"
+    },
+    {
+        "index": "2.31",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:07.370287"
+    },
+    {
+        "index": "2.32",
+        "text": "o",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:07.500740"
+    },
+    {
+        "index": "2.33",
+        "text": "k",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:07.656156"
+    },
+    {
+        "index": "2.34",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:08.364511"
+    },
+    {
+        "input_text": "napoleoni kook\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:57:08.364511"
+    },
+    {
+        "index": "3.0",
+        "text": "Sisesta koogi m\u00f5\u00f5t: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:08.380170"
+    },
+    {
+        "index": "3.20",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:09.633661"
+    },
+    {
+        "index": "3.21",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:09.826422"
+    },
+    {
+        "index": "3.22",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:09.985006"
+    },
+    {
+        "index": "3.23",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:12.518541"
+    },
+    {
+        "input_text": "100\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:57:12.518541"
+    },
+    {
+        "index": "4.0",
+        "text": "Selle koogi hind on 800.0 eurot\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:12.533702"
+    },
+    {
+        "index": "5.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:57:12.533702"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T21:57:16.787251"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T21:58:12.526818"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:58:13.443490"
+    },
+    {
+        "index1": "1.0",
+        "index2": "23.9",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:58:14.730975"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:58:15.920000"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.54",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:58:16.811776"
+    },
+    {
+        "index": "1.0",
+        "text": "#1l = 8m'2\nimport math\npikkus = float(input(\"Ruumi pikkus: \"))\nlaius = float(input(\"Ruumi laius: \"))\nk\u00f5rgus = float(input(\"Ruumi k\u00f5rgus: \"))\nmaht = float(input(\"Mitu liitrit l\u00e4heb su purki?: \"))\n# 2 seina on pikkus korda k\u00f5rgus\n# 2 seina on laius korda k\u00f5rgus\npurk = 2 * (pikkus * k\u00f5rgus) + 2 * (laius * k\u00f5rgus)\nliiter = purk / 8\nsumma = liiter / maht\nboom = math.ceil(summa)\nprint(\"Tuleb osta \", boom,\" purki v\u00e4rvi.\")",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T21:58:17.985439"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T21:58:17.985439"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:58:19.020279"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T21:58:19.121888"
+    },
+    {
+        "index1": "5.4",
+        "index2": "6.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:19.162672"
+    },
+    {
+        "index": "5.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:19.162672"
+    },
+    {
+        "index1": "6.0",
+        "index2": "6.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:19.162672"
+    },
+    {
+        "index1": "1.0",
+        "index2": "5.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:19.162672"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T21:58:19.162672"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T21:58:19.257994"
+    },
+    {
+        "index": "2.0",
+        "text": "Ruumi pikkus: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:19.281554"
+    },
+    {
+        "index": "2.14",
+        "text": "6",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:38.779680"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T21:58:44.293592"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T21:58:50.245258"
+    },
+    {
+        "index": "2.15",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:51.149383"
+    },
+    {
+        "input_text": "6\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:58:51.149383"
+    },
+    {
+        "index": "3.0",
+        "text": "Ruumi laius: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:51.154965"
+    },
+    {
+        "index": "3.13",
+        "text": "2",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:54.872735"
+    },
+    {
+        "index": "3.14",
+        "text": ".",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:54.983134"
+    },
+    {
+        "index": "3.15",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:55.235967"
+    },
+    {
+        "index": "3.16",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:55.839366"
+    },
+    {
+        "input_text": "2.5\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:58:55.839366"
+    },
+    {
+        "index": "4.0",
+        "text": "Ruumi k\u00f5rgus: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:58:55.871437"
+    },
+    {
+        "index": "4.14",
+        "text": "3",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:19.154121"
+    },
+    {
+        "index": "4.15",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:19.321669"
+    },
+    {
+        "input_text": "3\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:59:19.321669"
+    },
+    {
+        "index": "5.0",
+        "text": "Mitu liitrit l\u00e4heb su purki?: ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:19.344832"
+    },
+    {
+        "index": "5.30",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:31.729661"
+    },
+    {
+        "index": "5.31",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:32.282035"
+    },
+    {
+        "input_text": "5\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:59:32.282035"
+    },
+    {
+        "index": "6.0",
+        "text": "Tuleb osta  2  purki v\u00e4rvi.\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:32.297826"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:59:32.297826"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T21:59:52.402594"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T22:00:17.585907"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:00:18.182575"
+    },
+    {
+        "index1": "1.0",
+        "index2": "13.42",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T22:00:19.050671"
+    },
+    {
+        "index": "1.0",
+        "text": "temp = float(input(\"Mitu kraadi v\u00e4ljas on? \"))\nsun = input(\"Kas p\u00e4ike paistab? \")\nlipp = input(\"Kas rannas lehvib roheline lipp? \")\nif temp > 19 and sun == \"jah\":\n    print(\"V\u00f5id minna randa!\")\nelif lipp == \"jah\":\n    print(\"V\u00f5id minna randa!\")\nelse:\n    print(\"T\u00e4na ei tasu randa minna.\")",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T22:00:19.603360"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T22:00:19.603360"
+    },
+    {
+        "widget_id": 2867649152384,
+        "widget_class": "Frame",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:00:20.662777"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:00:21.279654"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T22:00:21.361744"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:21.409309"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:21.422869"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:21.422869"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:21.422869"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T22:00:21.422869"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T22:00:21.506030"
+    },
+    {
+        "index": "2.0",
+        "text": "Mitu kraadi v\u00e4ljas on? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:21.544895"
+    },
+    {
+        "index": "2.23",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:26.412781"
+    },
+    {
+        "index": "2.24",
+        "text": "4",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:26.603554"
+    },
+    {
+        "index": "2.25",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:26.779047"
+    },
+    {
+        "input_text": "14\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:26.779047"
+    },
+    {
+        "index": "3.0",
+        "text": "Kas p\u00e4ike paistab? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:26.810325"
+    },
+    {
+        "index": "3.19",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:28.717274"
+    },
+    {
+        "index": "3.20",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:28.813349"
+    },
+    {
+        "index": "3.21",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:28.987298"
+    },
+    {
+        "input_text": "ei\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:28.987298"
+    },
+    {
+        "index": "4.0",
+        "text": "Kas rannas lehvib roheline lipp? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:29.004317"
+    },
+    {
+        "index": "4.33",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:33.378368"
+    },
+    {
+        "index": "4.34",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:33.457217"
+    },
+    {
+        "index": "4.35",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:33.709203"
+    },
+    {
+        "input_text": "ei\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:33.709203"
+    },
+    {
+        "index": "5.0",
+        "text": "T\u00e4na ei tasu randa minna.\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:33.731141"
+    },
+    {
+        "index": "6.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:33.733052"
+    },
+    {
+        "widget_id": 2867649550832,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:00:39.178672"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:39.384679"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:39.405026"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:39.405026"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:39.405026"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:00:40.284920"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:40.380005"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:40.380005"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:40.380005"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:40.380005"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T22:00:40.380005"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T22:00:40.521494"
+    },
+    {
+        "index": "3.0",
+        "text": "Mitu kraadi v\u00e4ljas on? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:40.600446"
+    },
+    {
+        "index": "3.23",
+        "text": "2",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:45.377137"
+    },
+    {
+        "index": "3.24",
+        "text": "2",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:45.550658"
+    },
+    {
+        "index": "3.25",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:45.929822"
+    },
+    {
+        "input_text": "22\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:45.930983"
+    },
+    {
+        "index": "4.0",
+        "text": "Kas p\u00e4ike paistab? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:45.938516"
+    },
+    {
+        "index": "4.19",
+        "text": "j",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:47.295434"
+    },
+    {
+        "index": "4.20",
+        "text": "a",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:47.384172"
+    },
+    {
+        "index": "4.21",
+        "text": "h",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:47.494839"
+    },
+    {
+        "index": "4.22",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:47.716351"
+    },
+    {
+        "input_text": "jah\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:47.716351"
+    },
+    {
+        "index": "5.0",
+        "text": "Kas rannas lehvib roheline lipp? ",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:47.716351"
+    },
+    {
+        "index": "5.33",
+        "text": "e",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:49.455855"
+    },
+    {
+        "index": "5.34",
+        "text": "i",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:49.566944"
+    },
+    {
+        "index": "5.35",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:49.967050"
+    },
+    {
+        "input_text": "ei\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:00:49.967050"
+    },
+    {
+        "index": "6.0",
+        "text": "V\u00f5id minna randa!\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:50.016058"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:00:50.018337"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T22:00:56.647661"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T22:01:04.591069"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:05.486807"
+    },
+    {
+        "index1": "1.0",
+        "index2": "9.38",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T22:01:06.326019"
+    },
+    {
+        "index": "1.0",
+        "text": "print(\"Palju esimesel poisil enne \u00f5unu oli?:\")\nEnneEsimenePoiss = float(input())\nprint(\"Palju teisel?:\")\nEnneTeinePoiss = float(input())\n\nP\u00e4rastEsimenePoiss=EnneEsimenePoiss + 2*EnneTeinePoiss\nP\u00e4rastTeinePoiss=EnneTeinePoiss + 3*EnneEsimenePoiss\nKokku=P\u00e4rastEsimenePoiss + P\u00e4rastTeinePoiss\nprint(Kokku)",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T22:01:06.594518"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T22:01:06.594518"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:07.805619"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T22:01:07.910358"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:07.935275"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:07.935275"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:07.935275"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:07.935275"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T22:01:07.935275"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T22:01:08.027942"
+    },
+    {
+        "index": "2.0",
+        "text": "Palju esimesel poisil enne \u00f5unu oli?:\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:08.062681"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:09.753945"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:10.684442"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:11.624022"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:12.247060"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T22:01:21.560877"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T22:01:35.037936"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:35.530111"
+    },
+    {
+        "index1": "1.0",
+        "index2": "9.12",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T22:01:36.481515"
+    },
+    {
+        "index": "1.0",
+        "text": "print(\"Sisesta hetkeline bensiini liitrihind \u00fchikuta: \")\nLiitrihind = float(input())\nprint(\"Sisesta s\u00f5iduki k\u00fctusekulu 100km kohta \u00fchikuta: \")\nK\u00fctusekulu = float(input())\nprint(\"Sisesta vahemaa \u00fchikuta: \")\nVahemaa = float(input())\nprint(\"Selle teekonna l\u00e4bimise maksumus on:\")\nresult = (Vahemaa*K\u00fctusekulu/100)*Liitrihind\nresultresult = round(result, 2)\nprint(resultresult)\n",
+        "tags": "None",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T22:01:36.481515"
+    },
+    {
+        "widget_id": 2867649294640,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-23T22:01:36.481515"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:37.721054"
+    },
+    {
+        "index": "3.0",
+        "text": "Could not interrupt current process. ",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:38.851010"
+    },
+    {
+        "index": "3.37",
+        "text": "Forcing the program to stop.\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:38.851010"
+    },
+    {
+        "index": "4.0",
+        "text": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
+        "tags": "('magic', 'restart_line')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:38.982232"
+    },
+    {
+        "index": "6.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.044260"
+    },
+    {
+        "index": "6.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.046879"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.048067"
+    },
+    {
+        "editor_id": 2867649294688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Save",
+        "text_widget_id": 2867649294640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T22:01:39.072443"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.075667"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.077231"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.077231"
+    },
+    {
+        "index1": "1.0",
+        "index2": "6.80",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.077231"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T22:01:39.077231"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T22:01:39.134571"
+    },
+    {
+        "index": "3.0",
+        "text": "Sisesta hetkeline bensiini liitrihind \u00fchikuta: \n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:39.182104"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:40.897133"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:44.279234"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:45.742324"
+    },
+    {
+        "widget_id": 2867649550832,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:48.814380"
+    },
+    {
+        "index": "4.0",
+        "text": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
+        "tags": "('magic', 'restart_line')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:49.009781"
+    },
+    {
+        "index": "6.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:49.059751"
+    },
+    {
+        "index": "6.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:49.059751"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:49.059751"
+    },
+    {
+        "widget_id": 2867649548576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:49.991344"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.083485"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.083485"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.087580"
+    },
+    {
+        "index1": "1.0",
+        "index2": "6.80",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.087580"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T22:01:50.087580"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T22:01:50.190204"
+    },
+    {
+        "index": "3.0",
+        "text": "Sisesta hetkeline bensiini liitrihind \u00fchikuta: \n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.230675"
+    },
+    {
+        "index": "4.0",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:50.880811"
+    },
+    {
+        "index": "4.1",
+        "text": ".",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:51.000983"
+    },
+    {
+        "index": "4.2",
+        "text": "7",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:51.850644"
+    },
+    {
+        "index": "4.3",
+        "text": "7",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:52.152540"
+    },
+    {
+        "index": "4.4",
+        "text": "7",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:52.328925"
+    },
+    {
+        "index": "4.5",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:52.572551"
+    },
+    {
+        "input_text": "1.777\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:01:52.572551"
+    },
+    {
+        "index": "5.0",
+        "text": "Sisesta s\u00f5iduki k\u00fctusekulu 100km kohta \u00fchikuta: \n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:52.589705"
+    },
+    {
+        "index": "6.0",
+        "text": "6",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:55.504698"
+    },
+    {
+        "index": "6.1",
+        "text": ".",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:55.580680"
+    },
+    {
+        "index": "6.2",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:55.704954"
+    },
+    {
+        "index": "6.3",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:56.234620"
+    },
+    {
+        "input_text": "6.5\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:01:56.234620"
+    },
+    {
+        "index": "7.0",
+        "text": "Sisesta vahemaa \u00fchikuta: \n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:01:56.265946"
+    },
+    {
+        "widget_id": 2867649154016,
+        "widget_class": "ShellText",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "text_widget_context": "shell",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T22:01:58.740806"
+    },
+    {
+        "index": "8.0",
+        "text": "1",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:00.688289"
+    },
+    {
+        "index": "8.1",
+        "text": "2",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:00.943310"
+    },
+    {
+        "index": "8.2",
+        "text": "0",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:01.394799"
+    },
+    {
+        "index": "8.3",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:17.948155"
+    },
+    {
+        "input_text": "120\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T22:02:17.963325"
+    },
+    {
+        "index": "9.0",
+        "text": "Selle teekonna l\u00e4bimise maksumus on:\n13.86\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:17.995599"
+    },
+    {
+        "index": "11.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2867649154016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T22:02:17.996725"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-23T22:02:23.902201"
+    },
+    {
+        "widget_id": 2867608203424,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T22:02:52.103880"
+    }
+]

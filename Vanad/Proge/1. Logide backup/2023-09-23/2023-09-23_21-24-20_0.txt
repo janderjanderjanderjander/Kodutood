@@ -1,0 +1,214 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T21:24:20.855847"
+    },
+    {
+        "editor_id": 2117540622688,
+        "editor_class": "Editor",
+        "text_widget_id": 2117540622640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-23T21:24:20.893112"
+    },
+    {
+        "editor_id": 2117540622688,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Open",
+        "text_widget_id": 2117540622640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-23T21:24:20.893112"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2117540622640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-23T21:24:20.893112"
+    },
+    {
+        "index": "1.0",
+        "text": "def p\u00e4evade_arv(x):\n    if x == 1 or x == 3 or x == 5 or x == 7 or x == 8 or x == 10 or x == 12:\n        return 31\n    elif x == 4 or x == 6 or x == 9 or x == 11:\n        return 30\n    elif x == 2:\n        return 28\n    else:\n        return -1\n\n\nwhile True:\n    m = (input(\"Sisesta kuu number: \"))\n    if m == \"l\u00f5pp\":\n        break\n    else:\n        try:\n            m = int(m)\n            if p\u00e4evade_arv(m) == -1:\n                print(\"Kuu number peab j\u00e4\u00e4ma l\u00f5iku 1\u201312\")\n            else:\n                print(\"Selles kuus on \", p\u00e4evade_arv(m), \"p\u00e4eva\")\n        except:\n            print(\"Ebakorrektne number\")\nprint(\"Programm l\u00f5petas t\u00f6\u00f6\")",
+        "tags": "None",
+        "text_widget_id": 2117540622640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-23T21:24:20.903119"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-23T21:24:20.903119"
+    },
+    {
+        "widget_id": 2117499138208,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-23T21:24:21.108255"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:21.453997"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:21.453997"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:21.453997"
+    },
+    {
+        "widget_id": 2117540481200,
+        "widget_class": "AutomaticPanedWindow",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:24:29.429128"
+    },
+    {
+        "widget_id": 2117540876576,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-23T21:24:31.521698"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:31.652232"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:31.652232"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:31.652232"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:31.652232"
+    },
+    {
+        "cmd_line": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-23T21:24:31.652232"
+    },
+    {
+        "command_text": "%Run 'POOLIKKODIT\u00d6\u00d6.py'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-23T21:24:31.761995"
+    },
+    {
+        "index": "3.0",
+        "text": "Sisesta kuu number: ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:31.793242"
+    },
+    {
+        "index": "3.20",
+        "text": "5",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:32.932806"
+    },
+    {
+        "index": "3.21",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:33.184041"
+    },
+    {
+        "input_text": "5\n",
+        "sequence": "ShellInput",
+        "time": "2023-09-23T21:24:33.184041"
+    },
+    {
+        "index": "4.0",
+        "text": "Selles kuus on  31 p\u00e4eva\nSisesta kuu number: ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2117540482016,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-23T21:24:33.215321"
+    }
+]

@@ -1,0 +1,12 @@
+HD Tune Pro: HITACHI HDS7225SBSUN250G 0650NYWV44OA9CA (#VDS41DT7CYWAHJ) Random Access
+
+Test capacity: full
+
+Write test
+
+Transfer size	operations / sec	avg. access time	max. access time	avg. speed
+512 bytes	191 IOPS	5.219 ms	21.299 ms	0.094 MB/s
+4 KB	176 IOPS	5.665 ms	31.381 ms	0.689 MB/s
+64 KB	110 IOPS	9.041 ms	335.455 ms	6.913 MB/s
+1 MB	28 IOPS	35.086 ms	269.986 ms	28.501 MB/s
+Random	43 IOPS	23.076 ms	161.642 ms	21.987 MB/s

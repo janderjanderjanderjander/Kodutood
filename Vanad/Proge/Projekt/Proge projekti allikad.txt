@@ -1,0 +1,22 @@
+1. Peab paluma seda:
+Open Thonny:
+
+Launch the Thonny IDE on your computer.
+Open the Package Manager:
+
+In Thonny, go to the "Tools" menu and select "Manage Packages..."
+Search for Pygame:
+
+In the "Package Manager" window, there is a search bar. Enter "pygame" into the search bar.
+Install Pygame:
+
+Once you see "pygame" in the search results, select it, and click the "Install" button.
+Wait for Installation:
+
+Thonny will download and install Pygame and its dependencies. You'll see progress in the lower part of the window.
+Close Package Manager:
+
+Once the installation is complete, you can close the "Package Manager" window.
+Verify the Installation:
+
+Open Thonny's shell or a new script, and try importing Pygame:

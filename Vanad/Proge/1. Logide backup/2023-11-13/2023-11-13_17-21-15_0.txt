@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T17:21:15.701751"
+    },
+    {
+        "editor_id": 1903027663200,
+        "editor_class": "Editor",
+        "text_widget_id": 1903027663152,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-13T17:21:15.725845"
+    },
+    {
+        "editor_id": 1903027663200,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Vanemad.py",
+        "sequence": "Open",
+        "text_widget_id": 1903027663152,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-13T17:21:15.730407"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1903027663152,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-13T17:21:15.730528"
+    },
+    {
+        "index": "1.0",
+        "text": "# lapsed.txt\n# nimed.txt\nfail1 = \"file1.txt\"\nfail2 = \"file2.txt\"\n\ndef seosta_lapsed_ja_vanemad(fail1, fail2):\n    lapsed = []\n    vanemad = []\n    seosed = {}\n    v\u00e4ljund = {}\n    fail = open(fail1, \"r\", encoding=\"UTF-8\")\n    for rida in fail:\n        rida = rida.strip().split()\n        try:\n            lapsed.append(rida[1])\n            vanemad.append(rida[0])\n        except:\n            pass\n    fail.close()\n    fail = open(fail2, \"r\", encoding=\"UTF-8\")\n    for rida in fail:\n        rida = rida.strip().split()\n        seosed[rida[1]] = rida[0]\n    #print(seosed)\n    #print(lapsed)\n    #print(vanemad)\n    for i in vanemad:\n        laps = lapsed[vanemad.index(i)]\n        if i not in v\u00e4ljund.values():\n            v\u00e4ljund[seosed[laps]] = seosed[i]\n        else:\n            m\u00e4lu = []\n            m\u00e4lu.append(v\u00e4ljund[seosed[laps]])\n            print(m\u00e4lu)\n            \n            \n            #v\u00e4ljund[seosed[laps]] = v\u00e4ljund[seosed[laps]] + seosed[i]\n            \n    print(v\u00e4ljund)\n        \n        \nseosta_lapsed_ja_vanemad(fail1, fail2)\n    \n    ",
+        "tags": "None",
+        "text_widget_id": 1903027663152,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-13T17:21:15.742545"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T17:21:15.748015"
+    },
+    {
+        "widget_id": 1902986571936,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-13T17:21:15.931126"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1903027522528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T17:21:16.202846"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1903027522528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T17:21:16.204344"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1903027522528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T17:21:16.205360"
+    },
+    {
+        "widget_id": 1902986571936,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-13T17:21:21.977540"
+    },
+    {
+        "widget_id": 1902986571936,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-13T17:21:35.123089"
+    }
+]

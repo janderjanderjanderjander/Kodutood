@@ -1,0 +1,298 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T12:11:33.049161"
+    },
+    {
+        "editor_id": 2457069334496,
+        "editor_class": "Editor",
+        "text_widget_id": 2457069334640,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-14T12:11:33.077585"
+    },
+    {
+        "editor_id": 2457069334496,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\(Programmi_nimi)\\proge_projekt.py",
+        "sequence": "Open",
+        "text_widget_id": 2457069334640,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-14T12:11:33.077585"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2457069334640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-14T12:11:33.077585"
+    },
+    {
+        "index": "1.0",
+        "text": "from pathlib import Path\nimport pygame\nimport os\nimport shutil\nprint(\"\"\"\n\n\n\n\n\"\"\")\n\n\n# pygame.mixer.get.busy()\n\ndef peata_laul(laulu_nimi, laulu_formaat):\n    pygame.mixer.stop()\n    Path((str(Path.cwd())) + \"/J\u00e4rjekorras/\" + laulu_nimi + laulu_formaat).rename(str(Path.cwd()) + \"/K\u00f5ik/\" + laulu_nimi + laulu_formaat)\n    \ndef m\u00e4ngi_laulu(laulu_nimi, laulu_formaat):\n    pygame.mixer.quit()\n    pygame.mixer.init()\n    laulH = pygame.mixer.Sound(str(Path.cwd()) + \"/K\u00f5ik/\" + laulu_nimi + laulu_formaat)\n    laulH.play()\n    \ndef ootamine(laulu_nimi):\n    global laulu_formaat\n    lugude_nimekiri_k\u00f5ik = os.listdir(\"K\u00f5ik\")\n    j\u00e4rjekord.append(laulu_nimi)\n    while pygame.mixer.get_busy():\n        mitmes_lugu = 0\n        lugude_list = {}\n        print(\"Leitud lood: \\n\")\n        for lugu in lugude_nimekiri_k\u00f5ik:\n            mitmes_lugu += 1\n            lugu = lugu.strip('.mp3')\n            lugude_list[str(mitmes_lugu)] = lugu\n            print(str(mitmes_lugu) + \". \" + lugu)\n        laulu_nimi = str(input('\\nSisesta j\u00e4rgmise laulu number: '))\n        print(\"M\u00e4ngin kohe(K)\\nLisan j\u00e4rjekorda(J)\")\n        valik = input(\": \")\n        if valik == \"J\":\n            j\u00e4rjekord.append(laulu_nimi)\n        elif valik == \"K\":\n            m\u00e4ngi_laulu(lugude_list[laulu_nimi], laulu_formaat)\n    if bool(j\u00e4rjekord) == False:\n        return\n    else:\n        m\u00e4ngi_laulu(lugude_list[j\u00e4rjekord[0]], laulu_formaat)\n        j\u00e4rjekord.pop(0)\n                \n        \n        \ndef paus():\n    pygame.mixer.pause()\n    \ndef plei():\n    pygame.mixer.unpause()\n\ndef esialgne_k\u00fcsimine():\n    global j\u00e4rjekord\n    j\u00e4rjekord = []\n    kaust_k\u00f5ik = 'K\u00f5ik'\n    lugude_nimekiri_k\u00f5ik = os.listdir(kaust_k\u00f5ik)\n    kord = 0\n    laulu_formaat = '.mp3'\n    while True:\n        kord += 1\n        mitmes_lugu = 0\n        lugude_list = {}\n        print(\"Leitud lood: \\n\")\n        for lugu in lugude_nimekiri_k\u00f5ik:\n            mitmes_lugu += 1\n            lugu = lugu.strip('.mp3')\n            lugude_list[str(mitmes_lugu)] = lugu\n            print(str(mitmes_lugu) + \". \" + lugu)\n        if kord == 1:\n            laulu_nimi = str(input('\\nSisesta laulu number: '))\n            if lugude_list[laulu_nimi] not in lugude_list.values():\n                break\n            else:\n                m\u00e4ngi_laulu(lugude_list[laulu_nimi], laulu_formaat)\n                pass\n        else:\n            laulu_nimi = str(input('\\nSisesta j\u00e4rgmise laulu number: '))\n            print(\"M\u00e4ngin kohe(K)\\nLisan j\u00e4rjekorda(J)\")\n            valik = input(\": \")\n            if laulu_nimi not in lugude_list:\n                break\n            else:\n                if valik == \"K\":\n                    m\u00e4ngi_laulu(lugude_list[laulu_nimi], laulu_formaat)\n                elif valik == \"J\":\n                    ootamine(laulu_nimi)\n                pass    \n\n#---ALGUS---\nesialgne_k\u00fcsimine()",
+        "tags": "None",
+        "text_widget_id": 2457069334640,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-14T12:11:33.093064"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T12:11:33.097016"
+    },
+    {
+        "widget_id": 2457028571296,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-14T12:11:33.306832"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:33.629957"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:33.629957"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:33.629957"
+    },
+    {
+        "widget_id": 2457069588192,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T12:11:34.950581"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.029092"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run proge_projekt.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.044393"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.046944"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.046944"
+    },
+    {
+        "cmd_line": "%Run proge_projekt.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-14T12:11:35.046944"
+    },
+    {
+        "command_text": "%Run proge_projekt.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-14T12:11:35.170416"
+    },
+    {
+        "index": "3.0",
+        "text": "pygame 2.5.2 (SDL 2.28.3, Python 3.10.11)\nHello from the pygame community. ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.453407"
+    },
+    {
+        "index": "4.33",
+        "text": "https://www.pygame.org/contribute.html",
+        "tags": "('io', 'stdout', 'io_hyperlink')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.453407"
+    },
+    {
+        "index": "4.71",
+        "text": "\n\n\n\n\n\n\nLeitud lood: \n\n1. Ariana Grande - One Last Time (Drew Stevens Remix)\n2. MIKA - Relax, Take It Easy",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.453407"
+    },
+    {
+        "index": "14.29",
+        "text": "\n3. The Chainsmokers & Coldplay - Something Just Like This (Lyric)\n\nSisesta laulu number: ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:35.484707"
+    },
+    {
+        "index": "17.22",
+        "text": "3",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:40.637773"
+    },
+    {
+        "index": "17.23",
+        "text": "\n",
+        "tags": "('io', 'stdin')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:40.876919"
+    },
+    {
+        "input_text": "3\n",
+        "sequence": "ShellInput",
+        "time": "2023-11-14T12:11:40.876919"
+    },
+    {
+        "index": "18.0",
+        "text": "Leitud lood: \n\n1. Ariana Grande - One Last Time (Drew Stevens Remix)\n2. MIKA - Relax, Take It Easy\n3. The Chainsmokers & Coldplay - Something Just Like This (Lyric)\n\nSisesta j\u00e4rgmise laulu number: ",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:42.069090"
+    },
+    {
+        "widget_id": 2457069590640,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-14T12:11:55.607767"
+    },
+    {
+        "index": "24.31",
+        "text": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n",
+        "tags": "('magic', 'restart_line')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:56.037331"
+    },
+    {
+        "index": "26.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:56.057497"
+    },
+    {
+        "index": "26.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:56.062520"
+    },
+    {
+        "index": "27.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2457069194208,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:11:56.063715"
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-08T23:58:15.564645"
+    },
+    {
+        "editor_id": 1595552674240,
+        "editor_class": "Editor",
+        "text_widget_id": 1595552674192,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-08T23:58:15.591724"
+    },
+    {
+        "editor_id": 1595552674240,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Debug.py",
+        "sequence": "Open",
+        "text_widget_id": 1595552674192,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-08T23:58:15.593884"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1595552674192,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-08T23:58:15.596025"
+    },
+    {
+        "index": "1.0",
+        "text": "s = [[' ','X','X',' '], ['X','O',' ',' '], ['X','O','O',' '], [' ','O',' ','O']]\n#[' ','X','X',' ']\n#['X','O',' ',' ']\n#['X','O','O',' ']\n#[' ','O',' ','O']\n\n\n\ndef kontrolli_diagonaale(maatriks):\n    mitmes = 0\n    m\u00e4lu1 = 0\n    m\u00e4lu2 = 0\n    m\u00e4lu3 = 0\n    m\u00e4lu4 = 0\n    for j in maatriks:\n        for i in j:\n            if mitmes == 0:\n                if i != \" \":\n                    if m\u00e4lu1 == 0:\n                        m\u00e4lu1 = i\n                    \n            \n            \n\n\n\n\n\n\n\n\n\ndef kontrolli_ridu(maatriks):\n    m\u00e4lu = 0\n    for i in maatriks:\n        if i[0] == i[1] == i[2] != \" \" or i[1] == i[2] == i[3] != \" \":\n            m\u00e4lu += 1\n    return m\u00e4lu\n\ndef kontrolli_veergusid(maatriks):\n    m\u00e4lu1 = 0\n    m\u00e4lu2 = 0\n    m\u00e4lu3 = 0\n    m\u00e4lu4 = 0\n    mitmes = 0\n    m\u00e4lu = []\n    for j in maatriks:\n        for i in j:\n            if mitmes == 0:\n                mitmes += 1\n                if i != \" \":\n                    if m\u00e4lu1 == 0:\n                        m\u00e4lu1 = i\n                    else:\n                        m\u00e4lu1 += i\n            elif mitmes == 1:\n                mitmes += 1\n                if i != \" \":\n                    if m\u00e4lu2 == 0:\n                        m\u00e4lu2 = i\n                    else:\n                        m\u00e4lu2 += i\n            elif mitmes == 2:\n                mitmes += 1\n                if i != \" \":\n                    if m\u00e4lu3 == 0:\n                        m\u00e4lu3 = i\n                    else:\n                        m\u00e4lu3 += i\n            elif mitmes == 3:\n                mitmes = 0\n                if i != \" \":\n                    if m\u00e4lu4 == 0:\n                        m\u00e4lu4 = i\n                    else:\n                        m\u00e4lu4 += i\n    m\u00e4lu.append(m\u00e4lu1)\n    m\u00e4lu.append(m\u00e4lu2)\n    m\u00e4lu.append(m\u00e4lu3)\n    m\u00e4lu.append(m\u00e4lu4)\n    mitmes = 0\n    v\u00f5imalused = [\"XXX\", \"XXXO\", \"OXXX\", \"OOO\", \"OOOX\", \"XOOO\"]\n    for i in m\u00e4lu:\n        if i in v\u00f5imalused:\n            mitmes += 1\n    return mitmes\n\n\n            \n\n                \nprint(kontrolli_veergusid(s))\n            \n            ",
+        "tags": "None",
+        "text_widget_id": 1595552674192,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-08T23:58:15.605986"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-08T23:58:15.608595"
+    },
+    {
+        "widget_id": 1595511648416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-08T23:58:15.788403"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1595552533568,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:16.160070"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1595552533568,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:16.160070"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1595552533568,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-08T23:58:16.160070"
+    }
+]

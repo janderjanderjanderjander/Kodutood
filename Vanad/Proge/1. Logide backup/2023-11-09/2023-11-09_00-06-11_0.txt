@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-09T00:06:11.462492"
+    },
+    {
+        "editor_id": 2416073421248,
+        "editor_class": "Editor",
+        "text_widget_id": 2416073421104,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-09T00:06:11.484736"
+    },
+    {
+        "editor_id": 2416073421248,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6.py",
+        "sequence": "Open",
+        "text_widget_id": 2416073421104,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-09T00:06:11.488781"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2416073421104,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-09T00:06:11.489849"
+    },
+    {
+        "index": "1.0",
+        "text": "def erinevad_s\u00fcmbolid(s\u00f5ne):\n    dic = set(s\u00f5ne)\n    return dic\n\ndef s\u00fcmbolite_sagedus(s\u00f5ne):\n    s\u00f5nel = list(s\u00f5ne)\n    dic = set(s\u00f5ne)\n    booja = {}\n    for i in dic:\n        booja[i] = s\u00f5nel.count(i)\n    return booja\n    \ndef grupeeri(s\u00f5ne):\n    s\u00f5nel = list(s\u00f5ne)\n    s\u00f5nes = set(s\u00f5ne)\n    s\u00f5nes = list(s\u00f5nes)\n    t\u00e4ht_list = []\n    m\u00e4lu = []\n    for i in range(0, len(s\u00f5nes)):\n        m\u00e4lu.append(s\u00f5nes[i])\n        m\u00e4lu.append(s\u00f5nel.count(s\u00f5nes[i]))\n        m\u00e4lu = tuple(m\u00e4lu)\n        t\u00e4ht_list.append(m\u00e4lu)\n        m\u00e4lu = []\n    t\u00e4ish\u00e4\u00e4likud = \"aeiou\u00f6\u00e4\u00f5\u00fcAEIOU\u00d6\u00c4\u00d5\u00dc\"\n    kaash\u00e4\u00e4likud = \"qwrtyplkjhgfdszxcvbnmQWRTYPLKJHGFDSZXCVBNM\"\n    l\u00f5pptik = {\"T\u00e4ish\u00e4\u00e4likud\": {}, \"Kaash\u00e4\u00e4likud\": {}, \"Muud\": {}}\n    for i in t\u00e4ht_list:\n        i = list(i)\n        if t\u00e4ish\u00e4\u00e4likud.find(i[0]) != -1:\n            m\u00e4lu = list(l\u00f5pptik[\"T\u00e4ish\u00e4\u00e4likud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"T\u00e4ish\u00e4\u00e4likud\": m\u00e4lu})\n            m\u00e4lu = []\n        elif kaash\u00e4\u00e4likud.find(i[0]) != -1:\n            m\u00e4lu = list(l\u00f5pptik[\"Kaash\u00e4\u00e4likud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"Kaash\u00e4\u00e4likud\": m\u00e4lu})\n            m\u00e4lu = []\n        else:\n            m\u00e4lu = list(l\u00f5pptik[\"Muud\"])\n            m\u00e4lu.append(tuple(i))\n            m\u00e4lu = set(m\u00e4lu)\n            l\u00f5pptik.update({\"Muud\": m\u00e4lu})\n            m\u00e4lu = []\n    return l\u00f5pptik\n\nprint(grupeeri(\"assa poiss ahaa\"))",
+        "tags": "None",
+        "text_widget_id": 2416073421104,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-09T00:06:11.497933"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-09T00:06:11.502491"
+    },
+    {
+        "widget_id": 2416032329888,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-09T00:06:11.702585"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2416073280480,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:06:12.132803"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2416073280480,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:06:12.137839"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2416073280480,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-09T00:06:12.137839"
+    },
+    {
+        "widget_id": 2416032329888,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-09T00:06:16.002235"
+    },
+    {
+        "widget_id": 2416032329888,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-09T00:06:17.129777"
+    }
+]

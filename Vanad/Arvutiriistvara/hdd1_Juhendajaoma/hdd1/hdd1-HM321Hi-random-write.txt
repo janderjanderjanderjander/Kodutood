@@ -1,0 +1,12 @@
+HD Tune Pro: SAMSUNG HM321HI (#S24PJ9BZA08742) Random Access
+
+Test capacity: full
+
+Write test
+
+Transfer size	operations / sec	avg. access time	max. access time	avg. speed
+512 bytes	162 IOPS	6.153 ms	44.783 ms	0.079 MB/s
+4 KB	147 IOPS	6.792 ms	47.247 ms	0.575 MB/s
+64 KB	82 IOPS	12.126 ms	89.676 ms	5.154 MB/s
+1 MB	32 IOPS	31.230 ms	153.180 ms	32.020 MB/s
+Random	44 IOPS	22.511 ms	105.061 ms	22.539 MB/s

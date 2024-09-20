@@ -1,0 +1,198 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T18:49:43.464655"
+    },
+    {
+        "editor_id": 2611950694368,
+        "editor_class": "Editor",
+        "text_widget_id": 2611950694512,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-21T18:49:43.489063"
+    },
+    {
+        "editor_id": 2611950694368,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\L\u00f5ppFailiSUurus.py",
+        "sequence": "Open",
+        "text_widget_id": 2611950694512,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-21T18:49:43.495013"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2611950694512,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-21T18:49:43.495636"
+    },
+    {
+        "index": "1.0",
+        "text": "def teisenda(x):\n    if x > 1024:\n        xKB = x / 1024\n        if xKB > 1024:\n            xMB = xKB / 1024\n            if xMB > 1024:\n                xGB = xMB / 1024\n                return str(round(xGB, 1)) + \" GB\"\n            else:\n                return str(round(xMB, 1)) + \" MB\" \n        else:\n           return str(round(xKB, 1)) + \" KB\"      \n    else:\n        return str(round(x, 1)) + \" B\"\n\nfrom os.path import exists, getsize\ndef faili_suurus(a):\n    if exists(a) == True:\n        return getsize(a)\n    else:\n        return -1\n\ndef arvutus(a):\n    return teisenda(faili_suurus(a))\n\na = input(\"Sisesta faili nimi: \")\nprint(\"Faili suurus on\", arvutus(a))",
+        "tags": "None",
+        "text_widget_id": 2611950694512,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-21T18:49:43.509462"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T18:49:43.513756"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T18:49:43.896823"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2611950554080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:49:43.955851"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2611950554080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:49:43.968751"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2611950554080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:49:43.976791"
+    },
+    {
+        "widget_id": 2611950694512,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2611950694512,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-21T18:49:59.166826"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T18:53:00.299557"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T18:53:12.986913"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T18:56:23.675742"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T19:22:47.093884"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T19:22:47.093884"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T19:22:47.093884"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T19:22:47.681562"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T20:13:03.754366"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T20:13:03.757910"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T20:13:03.757910"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T20:13:04.874363"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T20:13:07.229764"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T20:13:07.231227"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T21:10:30.353519"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-21T21:10:30.353519"
+    },
+    {
+        "widget_id": 2611909734560,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T21:10:30.353519"
+    }
+]

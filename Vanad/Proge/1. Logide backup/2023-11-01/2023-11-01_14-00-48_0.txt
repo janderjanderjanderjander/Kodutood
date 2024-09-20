@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-01T14:00:48.185094"
+    },
+    {
+        "editor_id": 1772705788256,
+        "editor_class": "Editor",
+        "text_widget_id": 1772705788208,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-01T14:00:48.198998"
+    },
+    {
+        "editor_id": 1772705788256,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\diagonaalid.py",
+        "sequence": "Open",
+        "text_widget_id": 1772705788208,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-01T14:00:48.215021"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1772705788208,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-01T14:00:48.215528"
+    },
+    {
+        "index": "1.0",
+        "text": "def peadiagonaali_summa(maatriks):\n    mitmesS = -1\n    m\u00e4lu = []\n    for j in maatriks:\n        mitmesS += 1\n        mitmesV = -1\n        for i in j:\n            mitmesV += 1\n            if mitmesV == mitmesS:\n               m\u00e4lu.append(i)\n            else:\n                continue\n    summa = 0\n    for i in m\u00e4lu:\n        summa += i\n    return summa\n\ndef k\u00f5rvaldiagonaali_summa(maatriks):\n    mitmesS = 0\n    for j in maatriks:\n        mitmesS += 1\n    m\u00e4lu = []\n    for j in maatriks:\n        mitmesS -= 1\n        mitmesV = -1\n        for i in j:\n            mitmesV += 1\n            if mitmesV == mitmesS:\n               m\u00e4lu.append(i)\n            else:\n                continue\n    summa = 0\n    for i in m\u00e4lu:\n        summa += i\n    return summa\n\ndef diagonaalide_vahe(maatriks):\n    return peadiagonaali_summa(maatriks) - k\u00f5rvaldiagonaali_summa(maatriks)",
+        "tags": "None",
+        "text_widget_id": 1772705788208,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-01T14:00:48.224099"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-01T14:00:48.224099"
+    },
+    {
+        "widget_id": 1772664631456,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T14:00:48.425459"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1772705647584,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T14:00:48.786017"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1772705647584,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T14:00:48.788038"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1772705647584,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T14:00:48.789211"
+    },
+    {
+        "widget_id": 1772664631456,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-01T14:00:51.882973"
+    },
+    {
+        "widget_id": 1772664631456,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T14:00:52.696360"
+    }
+]

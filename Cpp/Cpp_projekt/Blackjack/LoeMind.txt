@@ -1,0 +1,4 @@
+App - Jooksuta programm
+Kood - Microsoft Visual Studio ja WxWidgets graafika liides.
+
+Kood on siit poolik, kuna ma ei saanud kaartide ääri läbipaistvaks. Otsustasin QT liidesele üle minna. QT liidese programmis on ainult nupud, seega seda ma ei esita.

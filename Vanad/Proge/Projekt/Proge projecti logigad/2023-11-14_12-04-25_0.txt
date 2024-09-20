@@ -1,0 +1,94 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T12:04:25.495848"
+    },
+    {
+        "editor_id": 2499978833888,
+        "editor_class": "Editor",
+        "text_widget_id": 2499978834032,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-14T12:04:25.529844"
+    },
+    {
+        "editor_id": 2499978833888,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\robotics-i-loti.05.010-jander-metsma-c28650-23-24a\\labs\\lab06\\Task4.py",
+        "sequence": "Open",
+        "text_widget_id": 2499978834032,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-14T12:04:25.529844"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2499978834032,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-14T12:04:25.543351"
+    },
+    {
+        "index": "1.0",
+        "text": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\nimport numpy as np\nimport cv2\nimport time\nimport easygopigo3 as go\nmyRobot = None\nj\u00e4rgmiseFrameAeg = time.time()\neelmiseFrameAeg = 1\nframerate = 1\nstate = 0\n\n\nlH = 0\nlS = 0\nlV = 0\nhH = 255\nhS = 255\nhV = 255\nex = 156\nwb = 500\ncamera = cv2.VideoCapture(0)\nret, frame = camera.read()\n\ndef update_low_hue(new1):\n    global lH\n    lH = new1\ndef update_low_saturation(new2):\n    global lS\n    lS = new2\ndef update_low_value(new3):\n    global lV\n    lV = new3\ndef update_high_hue(new4):\n    global hH\n    hH = new4\ndef update_high_saturation(new5):\n    global hS\n    hS = new5\ndef update_high_value(new6):\n    global hV\n    hV = new6\ndef update_exposure(new):\n    global ex\n    ex = new\n    camera.set(cv2.CAP_PROP_EXPOSURE, new)\ndef update_WB(new):\n    global wb\n    wb = new\n    camera.set(cv2.CAP_PROP_WB_TEMPERATURE, new)\n# NB! This function will be re-used in the future labs\ndef get_values_from_file(path_of_text_file):\n    global lH\n    global lS\n    global lV\n    global hH\n    global hS\n    global hV\n    global wb\n    global ex\n    \n    try:\n        kumb = 0\n        fail = open(path_of_text_file)\n        for rida in fail:\n            rida = rida.strip(\"\\n\")\n            rida = rida.split()\n            if kumb == 0:\n                lH = int(rida[2])\n                kumb += 1\n            elif kumb == 1:\n                lS = int(rida[2])\n                kumb += 1\n            elif kumb == 2:\n                lV = int(rida[2])\n                kumb += 1\n            elif kumb == 3:\n                hH = int(rida[2])\n                kumb += 1\n            elif kumb == 4:\n                hS = int(rida[2])\n                kumb += 1\n            elif kumb == 5:\n                hV = int(rida[2])\n                kumb += 1\n            elif kumb == 6:\n                ex = int(rida[2])\n                kumb += 1\n            else:\n                wb = int(rida[2])\n\n    except:\n        lH = 0\n        lS = 0\n        lV = 0\n        hH = 255\n        hS = 255\n        hV = 255\n        ex = 156\n        wb = 500\n\n    camera.set(cv2.CAP_PROP_WB_TEMPERATURE, wb)\n    camera.set(cv2.CAP_PROP_EXPOSURE, ex)\n\n### TODO 1: Add code from task 5\n### TODO 2: Once the main loop is exited, new trackbar values should be written into a text file (that is going to be in a specific lab folder)\n### TODO 3: Fill in the get_values_from_file() function which reads in the text file and outputs trackbar values\n### TODO 4: Run this program at least twice to make sure the trackbar values are written and read from the text file \n\ndef main():\n    global myRobot\n    myRobot = go.EasyGoPiGo3()\n    global j\u00e4rgmiseFrameAeg\n    global eelmiseFrameAeg\n    global framerate\n    # This function should run successfully even when there is no text file in the folder\n    get_values_from_file(\"trackbar_default\")\n    cv2.namedWindow(\"Output\")\n    \n    camera.set(cv2.CAP_PROP_AUTO_EXPOSURE, 1)\n    camera.set(cv2.CAP_PROP_AUTO_WB, 0)\n    \n    blobparams = cv2.SimpleBlobDetector_Params()\n    #paranda params\n    blobparams.filterByArea = True\n    blobparams.minArea = 300\n    blobparams.maxArea = 10000000\n    blobparams.filterByCircularity = False\n    #blobparams.minCircularity = 0.1\n    #blobparams.maxCircularity = 1\n    blobparams.filterByInertia = False\n    blobparams.filterByConvexity = False\n    #blobparams.maxConvexity = 1\n    #blobparams.minConvexity = 0.9\n    \n    blobparams.minDistBetweenBlobs = 0\n    detector = cv2.SimpleBlobDetector_create(blobparams)\n\n    while True:\n        ret, frame = camera.read()\n        #v\u00f5tan osa pildist\n        x = 300\n        a = 200\n        b = 300\n        frame = frame[a:b]\n        #muudan seda v\u00e4iksemaks kui vaja <<-\n        eelmiseFrameAeg = j\u00e4rgmiseFrameAeg\n        j\u00e4rgmiseFrameAeg = time.time()\n        \u00fche_frame_kiirus = j\u00e4rgmiseFrameAeg - eelmiseFrameAeg\n        framerate = 1 / \u00fche_frame_kiirus\n        lowerLimits = np.array([lH, lS, lV])\n        upperLimits = np.array([hH, hS, hV])\n        blurred = cv2.GaussianBlur(frame, (5, 5), 0)\n        value = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)\n        thresholded = cv2.inRange(value, lowerLimits, upperLimits)\n        cv2.rectangle(thresholded, (0, 0), (640, 100), (0, 0, 0), 5)\n        thresholded = cv2.bitwise_not(thresholded)\n        \n        keypoints = detector.detect(thresholded)\n        frame = cv2.drawKeypoints(frame, keypoints, None, (0,255,0),cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)\n        for i in range(0, len(keypoints)):\n            x = keypoints[i].pt[0]\n            y = keypoints[i].pt[1]\n            cv2.putText(frame, str(\"x: \" + str(round(x)) + \"  \" + \"y: \" + str(round(y))), (int(round(x)), int(round(y))), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)\n        #SIIA KUIDAS ROuBOUT T\u00f6\u00f6tab\n            \n        #frame = cv2.bitwise_and(frame,frame, mask= thresholded)\n        #\u00fclemine on kui ma tahan n\u00e4ha ainult palli, sellega pean bitwise_not \u00e4ra keelama\n        cv2.putText(frame, str(round(framerate, 1)), (5, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)\n        cv2.imshow(\"Original\", frame)\n        cv2.imshow(\"Output\", thresholded)\n\n        \n        #cv2.imshow(\"Vaade\", thresholded)\n        if (cv2.waitKey(1) & 0xFF) == ord(\"q\"):\n            break\n    myRobot.stop()\n    print(\"closing program\")\n    camera.release()\n    cv2.destroyAllWindows() # remove this after adding the code\n\n\nif __name__ == \"__main__\":\n    main()\n\n",
+        "tags": "None",
+        "text_widget_id": 2499978834032,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-14T12:04:25.558440"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-14T12:04:25.559499"
+    },
+    {
+        "widget_id": 2499937677472,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-14T12:04:25.823751"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2499978693600,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:04:26.216825"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2499978693600,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:04:26.217368"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2499978693600,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-14T12:04:26.217368"
+    }
+]

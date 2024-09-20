@@ -1,0 +1,3507 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-20T12:04:27.522584"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-20T12:04:27.554217"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Open",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:04:27.554217"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:04:27.554217"
+    },
+    {
+        "index": "1.0",
+        "text": "from turtle import *\nforward(200)\nleft(60)\ncircle(100, 180)\n\n\n\n#raadius on 50\n#lehtede arv on 5\n#tan a = 200 / (raadius/2)",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:04:27.569890"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-20T12:04:27.569890"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:04:27.774045"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:04:28.119555"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:04:28.135166"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:04:28.135166"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:05:26.081963"
+    },
+    {
+        "index": "1.0",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:27.700384"
+    },
+    {
+        "index": "2.0",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:27.854333"
+    },
+    {
+        "index": "2.0",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:29.076395"
+    },
+    {
+        "index": "2.1",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:29.255322"
+    },
+    {
+        "index": "2.2",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:29.461037"
+    },
+    {
+        "index1": "2.2",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:05:29.733074"
+    },
+    {
+        "index1": "2.1",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:05:29.894988"
+    },
+    {
+        "index1": "2.0",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:05:30.054518"
+    },
+    {
+        "index": "1.0",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:31.226753"
+    },
+    {
+        "index": "1.1",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:31.398590"
+    },
+    {
+        "index": "1.2",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:31.582222"
+    },
+    {
+        "index": "1.3",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:31.763772"
+    },
+    {
+        "index": "1.4",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:31.878064"
+    },
+    {
+        "index": "1.5",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.047608"
+    },
+    {
+        "index": "1.6",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.142248"
+    },
+    {
+        "index": "1.7",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.341177"
+    },
+    {
+        "index": "1.8",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.424937"
+    },
+    {
+        "index": "1.9",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.598211"
+    },
+    {
+        "index": "1.10",
+        "text": "h",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:05:32.773387"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:05:34.234651"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:05:58.629973"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:05:59.462637"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:00.650953"
+    },
+    {
+        "index": "1.0",
+        "text": "from mpmath import cot",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:00.657548"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-20T12:06:00.657548"
+    },
+    {
+        "index": "1.22",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:01.581147"
+    },
+    {
+        "index": "2.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:01.581147"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:03.454370"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:05.147371"
+    },
+    {
+        "index1": "2.0",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:05.997482"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:07.867131"
+    },
+    {
+        "index": "2.20",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:08.418908"
+    },
+    {
+        "index": "3.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:08.421439"
+    },
+    {
+        "index": "3.0",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:08.804899"
+    },
+    {
+        "index1": "3.0",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:10.967112"
+    },
+    {
+        "index1": "5.6",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:18.693387"
+    },
+    {
+        "index1": "5.5",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:18.865899"
+    },
+    {
+        "index": "5.5",
+        "text": "c",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:19.830245"
+    },
+    {
+        "index": "5.6",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:19.909134"
+    },
+    {
+        "index": "5.7",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:20.053900"
+    },
+    {
+        "index": "5.8",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:20.569746"
+    },
+    {
+        "index": "5.9",
+        "text": "2",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:24.796657"
+    },
+    {
+        "index": "5.10",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:24.931537"
+    },
+    {
+        "index": "5.11",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:25.067811"
+    },
+    {
+        "index": "5.12",
+        "text": "/",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:25.528455"
+    },
+    {
+        "index1": "5.12",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:28.373489"
+    },
+    {
+        "index": "5.12",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:28.617390"
+    },
+    {
+        "index": "5.13",
+        "text": "/",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:28.892481"
+    },
+    {
+        "index": "5.14",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:29.289961"
+    },
+    {
+        "index": "5.15",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:30.910869"
+    },
+    {
+        "index": "5.16",
+        "text": "5",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:31.230072"
+    },
+    {
+        "index": "5.17",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:31.325254"
+    },
+    {
+        "index": "5.18",
+        "text": "/",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:32.203771"
+    },
+    {
+        "index": "5.19",
+        "text": "2",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:32.401535"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:34.098648"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:34.834641"
+    },
+    {
+        "index": "5.20",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:35.470749"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:37.991565"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:44.816418"
+    },
+    {
+        "index": "5.21",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:45.723143"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:47.401683"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:06:47.534627"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.543189"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.543189"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.543189"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.543189"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:06:47.543189"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:06:47.648736"
+    },
+    {
+        "index": "3.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.727667"
+    },
+    {
+        "index": "4.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_1708920197488')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.731175"
+    },
+    {
+        "index": "4.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py\", line 1, in <module>",
+        "tags": "('io', 'stderr', 'frame_1708920197488', 'stacktrace_hyperlink')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.731683"
+    },
+    {
+        "index": "4.77",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_1708920197488')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.731683"
+    },
+    {
+        "index": "5.0",
+        "text": "    from mpmath import cot\n",
+        "tags": "('io', 'stderr', 'frame_1708920197488')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.731683"
+    },
+    {
+        "index": "6.0",
+        "text": "ModuleNotFoundError: No module named 'mpmath'\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.731683"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:06:47.738047"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:06:53.122014"
+    },
+    {
+        "index1": "1.21",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.270634"
+    },
+    {
+        "index1": "1.20",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.781539"
+    },
+    {
+        "index1": "1.19",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.829270"
+    },
+    {
+        "index1": "1.18",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.860825"
+    },
+    {
+        "index1": "1.17",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.897090"
+    },
+    {
+        "index1": "1.16",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.927093"
+    },
+    {
+        "index1": "1.15",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.961086"
+    },
+    {
+        "index1": "1.14",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:56.994327"
+    },
+    {
+        "index1": "1.13",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.019824"
+    },
+    {
+        "index1": "1.12",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.065822"
+    },
+    {
+        "index1": "1.11",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.099713"
+    },
+    {
+        "index1": "1.10",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.137458"
+    },
+    {
+        "index1": "1.9",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.162458"
+    },
+    {
+        "index1": "1.8",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.191563"
+    },
+    {
+        "index1": "1.7",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.238372"
+    },
+    {
+        "index1": "1.6",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.271515"
+    },
+    {
+        "index1": "1.5",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.302056"
+    },
+    {
+        "index1": "1.4",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.335874"
+    },
+    {
+        "index1": "1.3",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.460167"
+    },
+    {
+        "index1": "1.2",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.618103"
+    },
+    {
+        "index1": "1.1",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:57.774935"
+    },
+    {
+        "index1": "1.0",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:06:58.117606"
+    },
+    {
+        "index": "1.0",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.035617"
+    },
+    {
+        "index": "1.1",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.243345"
+    },
+    {
+        "index": "1.2",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.431095"
+    },
+    {
+        "index": "1.3",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.618779"
+    },
+    {
+        "index": "1.4",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.686075"
+    },
+    {
+        "index": "1.5",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.829460"
+    },
+    {
+        "index": "1.6",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:06:59.969987"
+    },
+    {
+        "index": "1.7",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:00.151650"
+    },
+    {
+        "index": "1.8",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:00.220653"
+    },
+    {
+        "index": "1.9",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:00.394764"
+    },
+    {
+        "index": "1.10",
+        "text": "h",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:00.552366"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:01.754487"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:07:01.854819"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:01.899187"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:01.899187"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:01.899187"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:01.899187"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:07:01.899187"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:07:02.006297"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:07:02.163848"
+    },
+    {
+        "index": "2.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "3.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2472712917360')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "3.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py\", line 5, in <module>",
+        "tags": "('io', 'stderr', 'frame_2472712917360', 'stacktrace_hyperlink')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "3.77",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2472712917360')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "4.0",
+        "text": "    left(cot(200 / (50/2)))\n",
+        "tags": "('io', 'stderr', 'frame_2472712917360')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "5.0",
+        "text": "NameError: name 'cot' is not defined\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "index": "6.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:02.525742"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:07:04.525185"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:07:09.070943"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:07:19.133210"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:20.852807"
+    },
+    {
+        "index1": "5.7",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:07:26.544170"
+    },
+    {
+        "index1": "5.6",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:07:26.710012"
+    },
+    {
+        "index1": "5.5",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:07:26.915513"
+    },
+    {
+        "index": "5.5",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:27.047921"
+    },
+    {
+        "index": "5.6",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:27.271924"
+    },
+    {
+        "index": "5.7",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:27.366652"
+    },
+    {
+        "index": "5.5",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:29.498518"
+    },
+    {
+        "index": "5.6",
+        "text": "/",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:29.890610"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:31.102024"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:07:31.199652"
+    },
+    {
+        "index1": "6.4",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.206446"
+    },
+    {
+        "index": "6.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.208053"
+    },
+    {
+        "index1": "7.0",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.210392"
+    },
+    {
+        "index1": "1.0",
+        "index2": "6.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.211869"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:07:31.212377"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:07:31.306925"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:07:31.487524"
+    },
+    {
+        "index": "2.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.863700"
+    },
+    {
+        "index": "3.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2575199486016')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.863700"
+    },
+    {
+        "index": "3.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py\", line 5, in <module>",
+        "tags": "('io', 'stderr', 'frame_2575199486016', 'stacktrace_hyperlink')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.863700"
+    },
+    {
+        "index": "3.77",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2575199486016')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.863700"
+    },
+    {
+        "index": "4.0",
+        "text": "    left(1/tan(200 / (50/2)))\n",
+        "tags": "('io', 'stderr', 'frame_2575199486016')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.870215"
+    },
+    {
+        "index": "5.0",
+        "text": "NameError: name 'tan' is not defined\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.871965"
+    },
+    {
+        "index": "6.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:31.874057"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:07:34.647604"
+    },
+    {
+        "widget_id": 1365759416096,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:36.009428"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:36.272139"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:36.289382"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:36.289382"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:36.289382"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:39.389798"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.11",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:07:40.449602"
+    },
+    {
+        "index": "1.0",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:40.449602"
+    },
+    {
+        "index": "1.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:40.626933"
+    },
+    {
+        "index": "1.2",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:40.653790"
+    },
+    {
+        "index": "1.3",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:40.869780"
+    },
+    {
+        "index": "1.4",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.056379"
+    },
+    {
+        "index": "1.5",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.218796"
+    },
+    {
+        "index": "1.6",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.344003"
+    },
+    {
+        "index": "1.7",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.454049"
+    },
+    {
+        "index": "1.8",
+        "text": "h",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.615005"
+    },
+    {
+        "index": "1.9",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:41.788583"
+    },
+    {
+        "index": "1.10",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.007409"
+    },
+    {
+        "index": "1.11",
+        "text": "m",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.195801"
+    },
+    {
+        "index": "1.12",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.432210"
+    },
+    {
+        "index": "1.13",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.626336"
+    },
+    {
+        "index": "1.14",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.684945"
+    },
+    {
+        "index": "1.15",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.843107"
+    },
+    {
+        "index": "1.16",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:42.906088"
+    },
+    {
+        "index": "1.17",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:43.000429"
+    },
+    {
+        "index": "1.18",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:43.254256"
+    },
+    {
+        "index1": "1.18",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:07:43.575861"
+    },
+    {
+        "index": "1.18",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:43.667713"
+    },
+    {
+        "index": "1.19",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:07:43.743466"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:45.082607"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:07:45.160832"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:07:45.275306"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:07:45.475854"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:47.039892"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:07:50.076795"
+    },
+    {
+        "widget_id": 1365759641104,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:53.837354"
+    },
+    {
+        "index1": "3.4",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:53.956145"
+    },
+    {
+        "index": "3.4",
+        "text": "%Debug lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:53.956145"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:53.956145"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:07:53.956145"
+    },
+    {
+        "cmd_line": "%Debug lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:07:53.956145"
+    },
+    {
+        "command_text": "%Debug lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:07:54.043629"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:57.939112"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:58.113517"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:58.491939"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:59.814646"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:07:59.815186"
+    },
+    {
+        "widget_id": 1365759644848,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:08:00.385628"
+    },
+    {
+        "widget_id": 1365759416096,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:08:01.868673"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:02.104901"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:02.138984"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:02.139990"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:02.141246"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:08:07.568031"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:07.647575"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:07.647575"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:07.647575"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:07.647575"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:08:07.647575"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:08:07.810826"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:08:07.999133"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:08:09.587062"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:08:12.038814"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:08:58.952388"
+    },
+    {
+        "index1": "5.6",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:09:00.450933"
+    },
+    {
+        "index1": "5.5",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:09:00.650827"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:09:02.214932"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:09:02.307224"
+    },
+    {
+        "index1": "3.4",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:02.315616"
+    },
+    {
+        "index": "3.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:02.316636"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:02.316636"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:02.320601"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:09:02.321113"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:09:02.462882"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:09:02.620063"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:04.249069"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:09:16.123284"
+    },
+    {
+        "widget_id": 1365759416096,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:09:16.962564"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:17.234849"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:17.255289"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:17.255795"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:09:17.255795"
+    },
+    {
+        "widget_id": 1365759684240,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:09:19.391527"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:11:49.388706"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:13:39.382952"
+    },
+    {
+        "index": "5.5",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:13:44.988436"
+    },
+    {
+        "index": "5.6",
+        "text": "/",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:13:45.395795"
+    },
+    {
+        "index1": "5.13",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:03.406554"
+    },
+    {
+        "index1": "5.12",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:03.612185"
+    },
+    {
+        "index1": "5.11",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:03.993365"
+    },
+    {
+        "index": "5.11",
+        "text": "4",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:04.595813"
+    },
+    {
+        "index": "5.12",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:05.465726"
+    },
+    {
+        "index": "5.13",
+        "text": "*",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:06.175370"
+    },
+    {
+        "index": "5.14",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:06.854911"
+    },
+    {
+        "index": "5.15",
+        "text": "5",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:09.876716"
+    },
+    {
+        "index": "5.16",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:09.941000"
+    },
+    {
+        "index1": "5.16",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:30.102854"
+    },
+    {
+        "index1": "5.15",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:30.293224"
+    },
+    {
+        "index1": "5.14",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:30.422114"
+    },
+    {
+        "index1": "5.13",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:30.560299"
+    },
+    {
+        "index1": "5.12",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:30.797871"
+    },
+    {
+        "index1": "5.11",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:31.081337"
+    },
+    {
+        "index": "5.11",
+        "text": "5",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:31.731863"
+    },
+    {
+        "index": "5.12",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:31.811957"
+    },
+    {
+        "index1": "5.22",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:37.540068"
+    },
+    {
+        "index1": "5.21",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:37.904525"
+    },
+    {
+        "index1": "5.20",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:38.110763"
+    },
+    {
+        "index1": "5.19",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:38.359291"
+    },
+    {
+        "index1": "5.18",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:38.601978"
+    },
+    {
+        "index1": "5.17",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:38.854559"
+    },
+    {
+        "index1": "5.16",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:14:39.170296"
+    },
+    {
+        "index": "5.16",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:45.388446"
+    },
+    {
+        "index": "5.17",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:45.483506"
+    },
+    {
+        "index": "5.18",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:45.657950"
+    },
+    {
+        "index": "5.20",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:14:52.906293"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:14:54.923704"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:14:55.038034"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:14:55.082498"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:14:55.095609"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:14:55.095609"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:14:55.095609"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:14:55.095609"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:14:55.206388"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:14:55.378829"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:14:56.946040"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:15:01.101954"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:02.392390"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Copy>>",
+        "time": "2023-09-20T12:15:05.583379"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:06.487215"
+    },
+    {
+        "index": "7.0",
+        "text": "left(1/tan(50 / 100))",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:07.094298"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-20T12:15:07.098024"
+    },
+    {
+        "index": "7.21",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:07.820428"
+    },
+    {
+        "index": "8.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:07.828787"
+    },
+    {
+        "index": "8.0",
+        "text": "left(1/tan(50 / 100))",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:08.218893"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<<Paste>>",
+        "time": "2023-09-20T12:15:08.218893"
+    },
+    {
+        "index": "8.21",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:08.601570"
+    },
+    {
+        "index": "9.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:08.618898"
+    },
+    {
+        "index": "9.0",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:08.968823"
+    },
+    {
+        "index": "9.1",
+        "text": "o",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:09.091540"
+    },
+    {
+        "index": "9.2",
+        "text": "w",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:09.369895"
+    },
+    {
+        "index": "9.3",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:10.050766"
+    },
+    {
+        "index": "9.4",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:10.268867"
+    },
+    {
+        "index": "9.5",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:10.473637"
+    },
+    {
+        "index": "9.6",
+        "text": "d",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:10.697598"
+    },
+    {
+        "index": "9.7",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:11.280452"
+    },
+    {
+        "index": "9.8",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:11.422587"
+    },
+    {
+        "index": "9.9",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:11.611478"
+    },
+    {
+        "index": "9.10",
+        "text": "0",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:11.772936"
+    },
+    {
+        "index": "9.11",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:11.960825"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:13.319354"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:15:13.399130"
+    },
+    {
+        "index1": "3.4",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:13.445965"
+    },
+    {
+        "index": "3.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:13.445965"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:13.445965"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:13.461711"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:15:13.461711"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:15:13.560018"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:15:13.702863"
+    },
+    {
+        "index": "2.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.348012"
+    },
+    {
+        "index": "3.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2849242546240')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "index": "3.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py\", line 9, in <module>",
+        "tags": "('io', 'stderr', 'frame_2849242546240', 'stacktrace_hyperlink')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "index": "3.77",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2849242546240')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "index": "4.0",
+        "text": "    fowrard(100)\n",
+        "tags": "('io', 'stderr', 'frame_2849242546240')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "index": "5.0",
+        "text": "NameError: name 'fowrard' is not defined\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "index": "6.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:15.357530"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:15:17.483359"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:21.037940"
+    },
+    {
+        "index1": "9.3",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:15:22.095804"
+    },
+    {
+        "index1": "9.2",
+        "index2": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-20T12:15:22.274941"
+    },
+    {
+        "index": "9.2",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:22.400636"
+    },
+    {
+        "index": "9.3",
+        "text": "w",
+        "tags": "None",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-20T12:15:22.701870"
+    },
+    {
+        "widget_id": 1365759413744,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:24.109877"
+    },
+    {
+        "editor_id": 1365759078752,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lill.py",
+        "sequence": "Save",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-20T12:15:24.196716"
+    },
+    {
+        "index1": "6.4",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:24.243935"
+    },
+    {
+        "index": "6.4",
+        "text": "%Run lill.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:24.243935"
+    },
+    {
+        "index1": "7.0",
+        "index2": "7.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:24.249964"
+    },
+    {
+        "index1": "1.0",
+        "index2": "6.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:24.249964"
+    },
+    {
+        "cmd_line": "%Run lill.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-20T12:15:24.249964"
+    },
+    {
+        "command_text": "%Run lill.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-20T12:15:24.353639"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-20T12:15:24.516364"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:26.285218"
+    },
+    {
+        "widget_id": 1365717856416,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-20T12:15:32.545506"
+    },
+    {
+        "widget_id": 1365759416096,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-20T12:15:33.842123"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:34.093467"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:34.124758"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:34.124758"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1365758938080,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-20T12:15:34.124758"
+    },
+    {
+        "widget_id": 1365759078704,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1365759078704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-3>",
+        "time": "2023-09-20T12:15:59.224892"
+    }
+]

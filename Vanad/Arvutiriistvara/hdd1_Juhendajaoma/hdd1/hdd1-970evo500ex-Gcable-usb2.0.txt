@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------
+CrystalDiskMark 8.0.4 Shizuku Edition x64 (C) 2007-2021 hiyohiyo
+                                  Crystal Dew World: https://crystalmark.info/
+------------------------------------------------------------------------------
+* MB/s = 1,000,000 bytes/s [SATA/600 = 600,000,000 bytes/s]
+* KB = 1000 bytes, KiB = 1024 bytes
+
+[Read]
+  SEQ    1MiB (Q=  8, T= 1):    42.739 MB/s [     40.8 IOPS] <192321.62 us>
+  SEQ    1MiB (Q=  1, T= 1):    42.122 MB/s [     40.2 IOPS] < 24878.72 us>
+  RND    4KiB (Q= 32, T= 1):    15.105 MB/s [   3687.7 IOPS] <  8666.79 us>
+  RND    4KiB (Q=  1, T= 1):    11.744 MB/s [   2867.2 IOPS] <   348.46 us>
+
+[Write]
+  SEQ    1MiB (Q=  8, T= 1):    43.568 MB/s [     41.5 IOPS] <188625.98 us>
+  SEQ    1MiB (Q=  1, T= 1):    43.133 MB/s [     41.1 IOPS] < 24263.46 us>
+  RND    4KiB (Q= 32, T= 1):    19.124 MB/s [   4668.9 IOPS] <  6847.50 us>
+  RND    4KiB (Q=  1, T= 1):    14.119 MB/s [   3447.0 IOPS] <   289.86 us>
+
+Profile: Default
+   Test: 1 GiB (x1) [F: 0% (1/466GiB)]
+   Mode: [Admin]
+   Time: Measure 5 sec / Interval 5 sec 
+   Date: 2023/10/09 12:05:16
+     OS: Windows 11 Enterprise [10.0 Build 22621] (x64)

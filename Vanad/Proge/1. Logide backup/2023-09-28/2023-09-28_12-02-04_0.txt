@@ -1,0 +1,172 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-28T12:02:04.692680"
+    },
+    {
+        "editor_id": 1912873988448,
+        "editor_class": "Editor",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-28T12:02:04.723928"
+    },
+    {
+        "editor_id": 1912873988448,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\POOLIKKODIT\u00d6\u00d6.py",
+        "sequence": "Open",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-28T12:02:04.730979"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-28T12:02:04.730979"
+    },
+    {
+        "index": "1.0",
+        "text": "list [\"pinks\", \"disc\"]\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\nlist = reversed(list)\n\n\n\nprint(list[1])",
+        "tags": "None",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-28T12:02:04.747648"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-28T12:02:04.748714"
+    },
+    {
+        "widget_id": 1912852951200,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T12:02:04.900422"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1912873847776,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T12:02:05.186967"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1912873847776,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T12:02:05.186967"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1912873847776,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T12:02:05.186967"
+    },
+    {
+        "widget_id": 1912873988400,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-28T12:02:11.881624"
+    },
+    {
+        "index1": "1.0",
+        "index2": "52.14",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-28T12:02:13.292694"
+    },
+    {
+        "widget_id": 1912874606672,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-28T12:02:15.793227"
+    },
+    {
+        "editor_id": 1912874775120,
+        "editor_class": "Editor",
+        "text_widget_id": 1912874772240,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-28T12:02:15.967368"
+    },
+    {
+        "editor_id": 1912874775120,
+        "editor_class": "Editor",
+        "sequence": "NewFile",
+        "text_widget_id": 1912874772240,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-28T12:02:15.967368"
+    },
+    {
+        "widget_id": 1912873854112,
+        "widget_class": "EditorNotebook",
+        "sequence": "<Button-1>",
+        "time": "2023-09-28T12:02:16.875343"
+    },
+    {
+        "widget_id": 1912852951200,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-28T12:02:17.021736"
+    },
+    {
+        "widget_id": 1912852951200,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T12:02:18.693111"
+    },
+    {
+        "editor_id": 1912873988448,
+        "editor_class": "Editor",
+        "text_widget_id": 1912873988400,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextDestroyed",
+        "time": "2023-09-28T12:02:18.706433"
+    },
+    {
+        "widget_id": 1912852951200,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-28T12:02:28.486838"
+    },
+    {
+        "widget_id": 1912852951200,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T12:02:31.120569"
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-25T19:40:10.307512"
+    },
+    {
+        "editor_id": 2827979632608,
+        "editor_class": "Editor",
+        "text_widget_id": 2827979632752,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-10-25T19:40:10.342202"
+    },
+    {
+        "editor_id": 2827979632608,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\kontrollt\u00f6\u00f61.py",
+        "sequence": "Open",
+        "text_widget_id": 2827979632752,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-10-25T19:40:10.342202"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2827979632752,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-10-25T19:40:10.342202"
+    },
+    {
+        "index": "1.0",
+        "text": "failinimi = input(\"Sisesta faili nimi: \")\npilve_nimi = input(\"Sisesta pilveteenuse nimi: \")\nlaenu_summa = input(\"Sisesta laenusumma: \")\nmitmes = 0\noli = 0\nm\u00e4lu_\u00fcks = 0\nm\u00e4lu_kaks = 1000\nfailist = open(failinimi).readlines()\ndef arvuta(laen, tasu):\n    return round(( laen / tasu ) / 60, 1)\nfor rida in failist:\n    if rida[-1:] == \"\\n\":\n        rida = rida[:-1]\n        pass\n    if mitmes == 0:\n        if rida == pilve_nimi:\n            oli = 1\n        m\u00e4lu_\u00fcks = rida\n        mitmes = 1\n    elif mitmes == 1:\n        rida = float(rida)\n        if oli == 1:\n            tasu = rida\n            oli = 0\n        mitmes = 2\n        if rida < m\u00e4lu_kaks:\n            m\u00e4lu_kaks = rida\n            soodsaim = m\u00e4lu_\u00fcks\n    elif mitmes == 2:\n        if rida == \"jah\":\n            hetkeline_pilveteenus = m\u00e4lu_\u00fcks\n        mitmes = 0\nprint(\"Laenu eest saab pilveteenust kasutada\", arvuta(float(laenu_summa), tasu), \"tundi.\")\nprint(\"Soodsaim pilveteenus on \" + soodsaim + \".\")\nkirfail = open(\"hostimine.txt\", \"w\")\nif hetkeline_pilveteenus == pilve_nimi:\n    kirfail.write(\"Sama pilveteenus - \" + hetkeline_pilveteenus + \".\")\n    kirfail.close()\nelse:\n    kirfail.write(\"Uus pilveteenus - \" + pilve_nimi + \".\")\n    kirfail.close()\n\n    \n\n        \n",
+        "tags": "None",
+        "text_widget_id": 2827979632752,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-10-25T19:40:10.357508"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-25T19:40:10.357508"
+    },
+    {
+        "widget_id": 2827938476192,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-25T19:40:10.567457"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2827979492320,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-25T19:40:10.937301"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2827979492320,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-25T19:40:10.937301"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2827979492320,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-25T19:40:10.937301"
+    },
+    {
+        "widget_id": 2827938476192,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-25T19:40:15.240991"
+    },
+    {
+        "widget_id": 2827938476192,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-25T19:40:53.687382"
+    }
+]

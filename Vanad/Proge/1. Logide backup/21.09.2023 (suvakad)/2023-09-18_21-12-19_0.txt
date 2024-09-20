@@ -1,0 +1,3504 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-18T21:12:19.321704"
+    },
+    {
+        "editor_id": 2408281125216,
+        "editor_class": "Editor",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-18T21:12:19.352999"
+    },
+    {
+        "editor_id": 2408281125216,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py",
+        "sequence": "Open",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-18T21:12:19.352999"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:12:19.352999"
+    },
+    {
+        "index": "1.0",
+        "text": "import math\ndef moos(x, y, z):\n    #x suured karbid, y v\u00e4iksed, z palju vaja\n    if z > 0:\n        r = math.floor(z / 5)\n        s = z - (r * 5)\n        if round(s) != s or s > y or r > x:\n            return -1\n        else:\n            return r+s\n    else:\n        return -1\nx = float(input(\"Suured karbid: \"))\ny= float(input(\"V\u00e4iksed karbid: \"))\nz = float(input(\"Palju vaja: \"))\n\nprint(moos(x, y, z))\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:12:19.368597"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-18T21:12:19.368597"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:12:19.527227"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:12:19.812029"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:12:19.812029"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:12:19.812029"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:13:09.485122"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:21:58.448056"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:22:01.038921"
+    },
+    {
+        "index1": "1.0",
+        "index2": "18.0",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:22:01.931664"
+    },
+    {
+        "index": "1.0",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:16.630966"
+    },
+    {
+        "index1": "1.0",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:22:17.041353"
+    },
+    {
+        "index": "1.0",
+        "text": "d",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:17.231371"
+    },
+    {
+        "index": "1.1",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:17.295777"
+    },
+    {
+        "index": "1.2",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:17.727521"
+    },
+    {
+        "index1": "1.2",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:22:18.077706"
+    },
+    {
+        "index": "1.2",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:18.237253"
+    },
+    {
+        "index": "1.3",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:18.682157"
+    },
+    {
+        "index": "1.4",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:19.110033"
+    },
+    {
+        "index": "1.5",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:19.460388"
+    },
+    {
+        "index": "1.6",
+        "text": "x",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:19.680444"
+    },
+    {
+        "index": "1.7",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:20.238592"
+    },
+    {
+        "index": "1.8",
+        "text": ":",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:20.736107"
+    },
+    {
+        "index": "1.9",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:21.066369"
+    },
+    {
+        "index": "2.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:21.066369"
+    },
+    {
+        "index": "2.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:21.066369"
+    },
+    {
+        "index": "2.4",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:21.833483"
+    },
+    {
+        "index": "2.5",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:21.958037"
+    },
+    {
+        "index": "2.6",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:22.038067"
+    },
+    {
+        "index": "2.7",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:22.272128"
+    },
+    {
+        "index": "2.8",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:22.394220"
+    },
+    {
+        "index": "2.9",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:23.127456"
+    },
+    {
+        "index": "2.10",
+        "text": "2",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:23.303878"
+    },
+    {
+        "index1": "2.10",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:22:23.714306"
+    },
+    {
+        "index": "2.10",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:23.826602"
+    },
+    {
+        "index": "2.11",
+        "text": "a",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:24.191568"
+    },
+    {
+        "index": "2.12",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:24.854907"
+    },
+    {
+        "index": "2.13",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:25.353800"
+    },
+    {
+        "index": "2.14",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:26.184056"
+    },
+    {
+        "index": "3.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:26.199800"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.4",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:22:26.701567"
+    },
+    {
+        "index": "3.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:27.060745"
+    },
+    {
+        "index": "3.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:27.266068"
+    },
+    {
+        "index": "3.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:27.407675"
+    },
+    {
+        "index": "3.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:27.679470"
+    },
+    {
+        "index": "3.4",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:27.886746"
+    },
+    {
+        "index": "3.5",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:28.285654"
+    },
+    {
+        "index": "3.6",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:28.856640"
+    },
+    {
+        "index": "3.7",
+        "text": "b",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:29.176414"
+    },
+    {
+        "index": "3.8",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:29.958714"
+    },
+    {
+        "index": "3.9",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:30.406914"
+    },
+    {
+        "index": "3.10",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:30.860411"
+    },
+    {
+        "index": "4.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:30.866283"
+    },
+    {
+        "index": "4.0",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:31.637525"
+    },
+    {
+        "index": "4.1",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:32.627031"
+    },
+    {
+        "index": "4.2",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:32.975539"
+    },
+    {
+        "index": "4.3",
+        "text": "c",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:33.536192"
+    },
+    {
+        "index": "4.4",
+        "text": "\"",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:33.998855"
+    },
+    {
+        "index": "4.5",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:22:34.362582"
+    },
+    {
+        "widget_id": 2408281541648,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:22:35.986463"
+    },
+    {
+        "editor_id": 2408281125216,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py",
+        "sequence": "Save",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-18T21:22:36.097424"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.113454"
+    },
+    {
+        "index": "2.4",
+        "text": "%Run Peller.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.113454"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.113454"
+    },
+    {
+        "index1": "1.0",
+        "index2": "1.80",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.113454"
+    },
+    {
+        "cmd_line": "%Run Peller.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-18T21:22:36.113454"
+    },
+    {
+        "command_text": "%Run Peller.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-18T21:22:36.209231"
+    },
+    {
+        "index": "3.0",
+        "text": "b\na\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.239191"
+    },
+    {
+        "index": "5.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:22:36.239191"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:22:39.413631"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:23:26.267538"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:23:33.550316"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:27:19.706633"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:27:20.779157"
+    },
+    {
+        "index1": "1.0",
+        "index2": "4.6",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:21.733156"
+    },
+    {
+        "index": "1.0",
+        "text": "d",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:22.192319"
+    },
+    {
+        "index": "1.1",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:22.414241"
+    },
+    {
+        "index": "1.2",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:22.603123"
+    },
+    {
+        "index": "1.3",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:22.811918"
+    },
+    {
+        "index": "1.4",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:22.967307"
+    },
+    {
+        "index": "1.5",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:23.078857"
+    },
+    {
+        "index": "1.6",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:23.283913"
+    },
+    {
+        "index": "1.7",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:23.681100"
+    },
+    {
+        "index": "1.8",
+        "text": "x",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:23.885980"
+    },
+    {
+        "index": "1.9",
+        "text": ",",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:24.289558"
+    },
+    {
+        "index": "1.10",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:24.522555"
+    },
+    {
+        "index": "1.11",
+        "text": "y",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:24.880320"
+    },
+    {
+        "index": "1.12",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:25.478228"
+    },
+    {
+        "index": "1.13",
+        "text": ":",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:26.159536"
+    },
+    {
+        "index": "1.14",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:26.833194"
+    },
+    {
+        "index": "2.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:26.848877"
+    },
+    {
+        "index": "2.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:26.848877"
+    },
+    {
+        "index": "2.4",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:27.407384"
+    },
+    {
+        "index": "2.5",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:27.607805"
+    },
+    {
+        "index": "2.6",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:27.796563"
+    },
+    {
+        "index": "2.7",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:27.890750"
+    },
+    {
+        "index": "2.8",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:28.017212"
+    },
+    {
+        "index": "2.9",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:28.169323"
+    },
+    {
+        "index": "2.10",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:28.348561"
+    },
+    {
+        "index": "2.11",
+        "text": "x",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:28.520830"
+    },
+    {
+        "index": "2.12",
+        "text": "+",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:29.248668"
+    },
+    {
+        "index1": "2.12",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:29.691022"
+    },
+    {
+        "index": "2.12",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:29.896255"
+    },
+    {
+        "index": "2.13",
+        "text": "+",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:30.023318"
+    },
+    {
+        "index": "2.14",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:30.305258"
+    },
+    {
+        "index": "2.15",
+        "text": "2",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:30.479282"
+    },
+    {
+        "index": "2.16",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:31.095959"
+    },
+    {
+        "index": "2.17",
+        "text": "*",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:31.459856"
+    },
+    {
+        "index": "2.18",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:31.778465"
+    },
+    {
+        "index": "2.19",
+        "text": "y",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:32.533628"
+    },
+    {
+        "index": "2.20",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:33.123318"
+    },
+    {
+        "index": "3.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:33.128512"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.4",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:33.132307"
+    },
+    {
+        "index": "3.0",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:34.946412"
+    },
+    {
+        "index": "3.1",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:35.045482"
+    },
+    {
+        "index": "3.2",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:35.378776"
+    },
+    {
+        "index": "3.3",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:35.836816"
+    },
+    {
+        "index": "3.4",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:38.082095"
+    },
+    {
+        "index": "3.5",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:38.177081"
+    },
+    {
+        "index": "3.6",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:38.367837"
+    },
+    {
+        "index": "3.7",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:38.799622"
+    },
+    {
+        "index": "3.8",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:39.727666"
+    },
+    {
+        "index": "3.9",
+        "text": ",",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:39.982065"
+    },
+    {
+        "index": "3.10",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:40.187183"
+    },
+    {
+        "index": "3.11",
+        "text": "f",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:40.328896"
+    },
+    {
+        "index": "3.12",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:40.487944"
+    },
+    {
+        "index": "3.13",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:40.711791"
+    },
+    {
+        "index": "3.14",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:41.167692"
+    },
+    {
+        "index": "3.15",
+        "text": "1",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:42.499594"
+    },
+    {
+        "index": "3.16",
+        "text": ",",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:42.692215"
+    },
+    {
+        "index": "3.17",
+        "text": "3",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:42.929025"
+    },
+    {
+        "index": "3.18",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:45.013168"
+    },
+    {
+        "index": "3.19",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:45.156057"
+    },
+    {
+        "index": "3.20",
+        "text": ",",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:45.428886"
+    },
+    {
+        "index": "3.21",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:45.662025"
+    },
+    {
+        "index": "3.22",
+        "text": "4",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:45.835782"
+    },
+    {
+        "index": "3.23",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:46.189673"
+    },
+    {
+        "index": "3.24",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:48.174507"
+    },
+    {
+        "index": "4.0",
+        "text": "",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:48.179937"
+    },
+    {
+        "index": "4.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:48.823848"
+    },
+    {
+        "index": "4.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:48.951754"
+    },
+    {
+        "index": "4.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:49.062129"
+    },
+    {
+        "index": "4.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:49.351334"
+    },
+    {
+        "index1": "4.3",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:49.895313"
+    },
+    {
+        "index1": "4.2",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:50.101992"
+    },
+    {
+        "index1": "4.1",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:50.282410"
+    },
+    {
+        "index1": "4.0",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:50.662285"
+    },
+    {
+        "index": "4.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:50.883255"
+    },
+    {
+        "index": "4.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:51.073430"
+    },
+    {
+        "index": "4.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:51.201115"
+    },
+    {
+        "index": "4.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:51.467373"
+    },
+    {
+        "index": "4.4",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:51.688792"
+    },
+    {
+        "index1": "4.4",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:52.485759"
+    },
+    {
+        "index1": "4.3",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:52.646084"
+    },
+    {
+        "index1": "4.2",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:52.772682"
+    },
+    {
+        "index1": "4.1",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:52.898995"
+    },
+    {
+        "index1": "4.0",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:53.026806"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:27:54.369270"
+    },
+    {
+        "index": "3.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.024896"
+    },
+    {
+        "index": "3.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.132487"
+    },
+    {
+        "index": "3.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.229084"
+    },
+    {
+        "index": "3.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.452313"
+    },
+    {
+        "index": "3.4",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.535391"
+    },
+    {
+        "index": "3.5",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:55.977960"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:27:57.157472"
+    },
+    {
+        "index": "3.30",
+        "text": "9",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:57.843734"
+    },
+    {
+        "index1": "3.30",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:27:58.812904"
+    },
+    {
+        "index": "3.30",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:27:59.095152"
+    },
+    {
+        "widget_id": 2408281541648,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:28:00.319035"
+    },
+    {
+        "editor_id": 2408281125216,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py",
+        "sequence": "Save",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-18T21:28:00.414941"
+    },
+    {
+        "index1": "5.4",
+        "index2": "6.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.430850"
+    },
+    {
+        "index": "5.4",
+        "text": "%Run Peller.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.430850"
+    },
+    {
+        "index1": "6.0",
+        "index2": "6.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.430850"
+    },
+    {
+        "index1": "1.0",
+        "index2": "5.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.430850"
+    },
+    {
+        "cmd_line": "%Run Peller.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-18T21:28:00.430850"
+    },
+    {
+        "command_text": "%Run Peller.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-18T21:28:00.508654"
+    },
+    {
+        "index": "2.0",
+        "text": "23\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.572023"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:28:00.572023"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:28:49.154337"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:06.171562"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:08.152875"
+    },
+    {
+        "index": "2.20",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:09.056147"
+    },
+    {
+        "index": "3.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:09.056147"
+    },
+    {
+        "index1": "3.0",
+        "index2": "3.4",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:09.056147"
+    },
+    {
+        "index": "3.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:10.854140"
+    },
+    {
+        "index": "3.4",
+        "text": "Z",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:12.842981"
+    },
+    {
+        "index": "3.5",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:13.130920"
+    },
+    {
+        "index": "3.6",
+        "text": "=",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:13.659134"
+    },
+    {
+        "index": "3.7",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:14.248698"
+    },
+    {
+        "index1": "3.7",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:14.521849"
+    },
+    {
+        "index1": "3.6",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:14.679600"
+    },
+    {
+        "index1": "3.5",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:14.822635"
+    },
+    {
+        "index1": "3.4",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:14.959042"
+    },
+    {
+        "index": "3.4",
+        "text": "Z",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:15.093147"
+    },
+    {
+        "index": "3.5",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:15.205963"
+    },
+    {
+        "index": "3.6",
+        "text": "=",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:15.457710"
+    },
+    {
+        "index": "3.7",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:15.681420"
+    },
+    {
+        "index": "3.8",
+        "text": "5",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:16.449213"
+    },
+    {
+        "index1": "3.8",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:16.656893"
+    },
+    {
+        "index1": "3.7",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:16.819123"
+    },
+    {
+        "index1": "3.6",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:16.961945"
+    },
+    {
+        "index1": "3.5",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:17.108629"
+    },
+    {
+        "index1": "3.4",
+        "index2": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:17.232464"
+    },
+    {
+        "index": "3.4",
+        "text": "z",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:18.151144"
+    },
+    {
+        "index": "3.5",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:18.373519"
+    },
+    {
+        "index": "3.6",
+        "text": "=",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:18.928132"
+    },
+    {
+        "index": "3.7",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:19.190471"
+    },
+    {
+        "index": "3.8",
+        "text": "5",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:19.541498"
+    },
+    {
+        "index": "3.9",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:19.670726"
+    },
+    {
+        "index": "4.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:19.682102"
+    },
+    {
+        "index": "4.4",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:19.874328"
+    },
+    {
+        "index": "4.5",
+        "text": "e",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.035370"
+    },
+    {
+        "index": "4.6",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.205983"
+    },
+    {
+        "index": "4.7",
+        "text": "u",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.320929"
+    },
+    {
+        "index": "4.8",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.429223"
+    },
+    {
+        "index": "4.9",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.522123"
+    },
+    {
+        "index": "4.10",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:20.711084"
+    },
+    {
+        "index": "4.11",
+        "text": "z",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:21.167822"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:22.642466"
+    },
+    {
+        "index": "6.0",
+        "text": "p",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.307293"
+    },
+    {
+        "index": "6.1",
+        "text": "r",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.480745"
+    },
+    {
+        "index": "6.2",
+        "text": "i",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.559736"
+    },
+    {
+        "index": "6.3",
+        "text": "n",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.783679"
+    },
+    {
+        "index": "6.4",
+        "text": "t",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.862914"
+    },
+    {
+        "index": "6.5",
+        "text": " ",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:23.955374"
+    },
+    {
+        "index": "6.6",
+        "text": "(",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:24.367932"
+    },
+    {
+        "index": "6.7",
+        "text": "z",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:24.556844"
+    },
+    {
+        "index": "6.8",
+        "text": ")",
+        "tags": "None",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:24.902020"
+    },
+    {
+        "widget_id": 2408281541648,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:26.710350"
+    },
+    {
+        "editor_id": 2408281125216,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py",
+        "sequence": "Save",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-18T21:36:26.821951"
+    },
+    {
+        "index1": "3.4",
+        "index2": "4.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.826499"
+    },
+    {
+        "index": "3.4",
+        "text": "%Run Peller.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.826499"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.826499"
+    },
+    {
+        "index1": "1.0",
+        "index2": "3.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.826499"
+    },
+    {
+        "cmd_line": "%Run Peller.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-18T21:36:26.836010"
+    },
+    {
+        "command_text": "%Run Peller.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-18T21:36:26.915521"
+    },
+    {
+        "index": "2.0",
+        "text": "23\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.962851"
+    },
+    {
+        "index": "3.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.964467"
+    },
+    {
+        "index": "4.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_1539680376368')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.964467"
+    },
+    {
+        "index": "4.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py\", line 6, in <module>",
+        "tags": "('io', 'stderr', 'frame_1539680376368', 'stacktrace_hyperlink')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.964467"
+    },
+    {
+        "index": "4.79",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_1539680376368')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.965746"
+    },
+    {
+        "index": "5.0",
+        "text": "    print (z)\n",
+        "tags": "('io', 'stderr', 'frame_1539680376368')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.965746"
+    },
+    {
+        "index": "6.0",
+        "text": "NameError: name 'z' is not defined\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.966288"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:26.966288"
+    },
+    {
+        "widget_id": 2408281541648,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:31.159157"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.313431"
+    },
+    {
+        "index": "7.4",
+        "text": "%Run Peller.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.313431"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.313431"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.313431"
+    },
+    {
+        "cmd_line": "%Run Peller.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-18T21:36:31.328781"
+    },
+    {
+        "command_text": "%Run Peller.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-18T21:36:31.406979"
+    },
+    {
+        "index": "2.0",
+        "text": "23\n",
+        "tags": "('stdout', 'io')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "3.0",
+        "text": "Traceback (most recent call last):\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "4.0",
+        "text": "  ",
+        "tags": "('io', 'stderr', 'frame_2212847425072')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "4.2",
+        "text": "File \"C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Peller.py\", line 6, in <module>",
+        "tags": "('io', 'stderr', 'frame_2212847425072', 'stacktrace_hyperlink')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "4.79",
+        "text": "\n",
+        "tags": "('io', 'stderr', 'frame_2212847425072')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "5.0",
+        "text": "    print (z)\n",
+        "tags": "('io', 'stderr', 'frame_2212847425072')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "6.0",
+        "text": "NameError: name 'z' is not defined\n",
+        "tags": "('io', 'stderr')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "index": "7.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:31.453809"
+    },
+    {
+        "widget_id": 2408281687472,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:41.386123"
+    },
+    {
+        "index1": "7.4",
+        "index2": "8.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:41.519371"
+    },
+    {
+        "index": "7.4",
+        "text": "%Debug Peller.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:41.519908"
+    },
+    {
+        "index1": "8.0",
+        "index2": "8.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:41.519908"
+    },
+    {
+        "index1": "1.0",
+        "index2": "7.0",
+        "text_widget_id": 2408280984544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-09-18T21:36:41.519908"
+    },
+    {
+        "cmd_line": "%Debug Peller.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-09-18T21:36:41.519908"
+    },
+    {
+        "command_text": "%Debug Peller.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-09-18T21:36:41.629580"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:43.782897"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:44.113745"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:45.144455"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:45.144455"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:45.860357"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:46.221563"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:46.512818"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:46.741596"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:46.946050"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:47.197644"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:47.449945"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:47.670020"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:47.859732"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:48.047547"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:48.204619"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:48.377350"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2408325745680,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:48.440747"
+    },
+    {
+        "index": "1.0",
+        "text": "def fun(x, y):\n    return x + 2 * y\n    z = 5\n    return z\n",
+        "tags": "None",
+        "text_widget_id": 2408325745680,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:48.453032"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:48.484105"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:48.558816"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:48.558816"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:48.689552"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:48.731529"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:48.731529"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:48.881454"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:49.183213"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:49.184227"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:49.278422"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:49.352871"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:49.352871"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:49.456901"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:49.537799"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:49.537799"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:49.678162"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:49.737848"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:49.737848"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:49.886259"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:49.967626"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:49.967626"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:50.127077"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:50.192944"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:50.192944"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:50.322615"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:50.363994"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:50.363994"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:50.501698"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:50.549354"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:50.549354"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:50.702008"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:50.744281"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:50.744281"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:50.918532"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:50.986777"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:50.990868"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:51.128841"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:51.239012"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:51.244463"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:51.402180"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:51.561067"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:51.562998"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:53.344109"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:53.961263"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2408326248480,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-18T21:36:54.136564"
+    },
+    {
+        "index": "1.0",
+        "text": "def fun(x, y):\n    return x + 2 * y\n    z = 5\n    return z\n",
+        "tags": "None",
+        "text_widget_id": 2408326248480,
+        "text_widget_class": "CodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-18T21:36:54.151080"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:54.184367"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:54.266756"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:54.266756"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:54.475895"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:54.975179"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:54.975179"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:55.102936"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:55.136090"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:55.138935"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:55.305451"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:55.371782"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:55.371782"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:55.540243"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:55.616416"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:55.616416"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:55.748794"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:55.817064"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:55.817064"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:55.956238"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:56.011179"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:56.011179"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:56.129502"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:56.200376"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:56.200376"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:56.334283"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:56.385066"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:56.385066"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:56.527621"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:56.588271"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:56.593839"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:56.749623"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:56.782743"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:56.782743"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:56.947323"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:57.009324"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:57.009324"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:57.169445"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:57.505237"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:57.508232"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:36:57.679473"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:36:58.219938"
+    },
+    {
+        "widget_id": 2408281691216,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:36:58.219938"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:37:05.038903"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:37:16.466286"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:37:17.402000"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:37:18.172938"
+    },
+    {
+        "widget_id": 2408281125168,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2408281125168,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-09-18T21:37:18.977666"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-18T21:37:21.388078"
+    },
+    {
+        "widget_id": 2408239706272,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-18T21:40:59.958186"
+    }
+]

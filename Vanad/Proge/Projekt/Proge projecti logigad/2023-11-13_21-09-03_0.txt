@@ -1,0 +1,212 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:09:03.680691"
+    },
+    {
+        "editor_id": 2198398414816,
+        "editor_class": "Editor",
+        "text_widget_id": 2198398414960,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-13T21:09:03.708475"
+    },
+    {
+        "editor_id": 2198398414816,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded\\organize_files.py",
+        "sequence": "Open",
+        "text_widget_id": 2198398414960,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-13T21:09:03.711493"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2198398414960,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-13T21:09:03.712487"
+    },
+    {
+        "index": "1.0",
+        "text": "import os\nimport shutil\nfrom datetime import datetime\n\ndef organize_python_files(directory):\n    # Get the list of Python files in the directory\n    python_files = [f for f in os.listdir(directory) if f.endswith('.py') and f != 'organize_files.py']\n\n    for file in python_files:\n        # Get the last modification time of the file\n        file_path = os.path.join(directory, file)\n        mod_time = os.path.getmtime(file_path)\n\n        # Convert the modification time to a readable format\n        mod_date = datetime.fromtimestamp(mod_time).strftime('%Y-%m-%d')\n\n        # Create a folder with the modification date if it doesn't exist\n        folder_path = os.path.join(directory, mod_date)\n        os.makedirs(folder_path, exist_ok=True)\n\n        # Move the file to the corresponding folder\n        new_file_path = os.path.join(folder_path, file)\n        shutil.move(file_path, new_file_path)\n\nif __name__ == \"__main__\":\n    current_directory = os.path.dirname(os.path.abspath(__file__))\n    organize_python_files(current_directory)\n    print(\"Files organized successfully.\")\n",
+        "tags": "None",
+        "text_widget_id": 2198398414960,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-13T21:09:03.723477"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:09:03.726708"
+    },
+    {
+        "widget_id": 2198357323936,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-13T21:09:03.991025"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:04.505139"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:04.506310"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:04.506820"
+    },
+    {
+        "widget_id": 2198398652032,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-13T21:09:05.153847"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.211312"
+    },
+    {
+        "index": "2.4",
+        "text": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded'\n%Run organize_files.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.212323"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.214314"
+    },
+    {
+        "cmd_line": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-13T21:09:05.216580"
+    },
+    {
+        "command_text": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-13T21:09:05.219204"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.224602"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.225901"
+    },
+    {
+        "index1": "1.0",
+        "index2": "4.0",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.226967"
+    },
+    {
+        "cmd_line": "%Run organize_files.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-13T21:09:05.227968"
+    },
+    {
+        "command_text": "%Run organize_files.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-13T21:09:05.227968"
+    },
+    {
+        "index": "1.0",
+        "text": "Files organized successfully.\n",
+        "tags": "('io', 'stdout')",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.416669"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt', 'after_io_or_value')",
+        "text_widget_id": 2198398274528,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:09:05.419357"
+    }
+]

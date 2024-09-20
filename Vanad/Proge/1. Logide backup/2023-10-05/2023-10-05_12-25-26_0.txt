@@ -1,0 +1,136 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-05T12:25:27.142562"
+    },
+    {
+        "editor_id": 2366447333776,
+        "editor_class": "Editor",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-10-05T12:25:27.178213"
+    },
+    {
+        "editor_id": 2366447333776,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Pokker.py",
+        "sequence": "Open",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-10-05T12:25:27.190148"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-10-05T12:25:27.192150"
+    },
+    {
+        "index": "1.0",
+        "text": "def k\u00e4si(x):\n    y = list(x)\n    if \"0\" in y:\n        x = x.replace(\"10\", \"O\")\n    x = list(x)\n    olikaks = 0\n    olikolm = 0\n    akaardid = []\n    p = 0\n    l\u00f5pp = 0\n    flush = [\"23456\", \"34567\", \"45678\", \"56789\", \"6789O\", \"789JO\", \"89JOQ\", \"9JKOQ\"]\n    akaardid = x\n    akaardid.sort()\n    l = akaardid[5] + akaardid[6] + akaardid[7] + akaardid[8] + akaardid[9]\n    n = akaardid[0] + akaardid[1] + akaardid[2] + akaardid[3] + akaardid[4]\n    if l == \"\u2663\u2663\u2663\u2663\u2663\" or l == \"\u2665\u2665\u2665\u2665\u2665\" or l == \"\u2666\u2666\u2666\u2666\u2666\" or l == \"\u2660\u2660\u2660\u2660\u2660\":\n        if n == \"AJKOQ\":\n            return \"Kuninglik mastirida\"\n        elif n in flush:\n            return \"Mastirida\"\n    for s in list(n):\n        if akaardid.count(s) == 4:\n            return \"Nelik\"\n        if akaardid.count(s) == 2:\n            olikaks += 1\n        if akaardid.count(s) == 3:\n            olikolm += 1\n        if olikaks == 2 and olikolm == 3:\n            return \"Maja\"\n    if l == \"\u2663\u2663\u2663\u2663\u2663\" or l == \"\u2665\u2665\u2665\u2665\u2665\" or l == \"\u2666\u2666\u2666\u2666\u2666\" or l == \"\u2660\u2660\u2660\u2660\u2660\":\n        return \"Mast\"\n    elif n in flush:\n        return \"Rida\"\n    elif olikolm == 3 and olikaks == 0:\n        return \"Kolmik\"\n    elif olikaks == 4:\n        return \"Kaks paari\"\n    elif olikaks == 2:\n        return \"\u00dcks paar\"\n    else:\n        return \"K\u00f5rge kaart\"\n\nprint(k\u00e4si(\"8\u26669\u266610\u2666J\u2666Q\u2666\"))\n\n\n\n\n",
+        "tags": "None",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-10-05T12:25:27.207397"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-05T12:25:27.217464"
+    },
+    {
+        "widget_id": 2366406176928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-05T12:25:27.390079"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2366447193104,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-05T12:25:27.780521"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2366447193104,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-05T12:25:27.783179"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2366447193104,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-05T12:25:27.783179"
+    },
+    {
+        "widget_id": 2366447333728,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-05T12:25:29.470185"
+    },
+    {
+        "index1": "1.0",
+        "index2": "47.0",
+        "text_widget_id": 2366447333728,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "time": "2023-10-05T12:25:31.085435"
+    },
+    {
+        "widget_id": 2366406176928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-05T12:25:36.389492"
+    },
+    {
+        "widget_id": 2366406176928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-05T12:25:36.971909"
+    },
+    {
+        "widget_id": 2366406176928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-05T12:25:36.991932"
+    },
+    {
+        "widget_id": 2366406176928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-05T12:25:39.476274"
+    }
+]

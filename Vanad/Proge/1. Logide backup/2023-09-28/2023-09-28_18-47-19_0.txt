@@ -1,0 +1,118 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-28T18:47:19.725977"
+    },
+    {
+        "editor_id": 2554410020832,
+        "editor_class": "Editor",
+        "text_widget_id": 2554410020976,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-28T18:47:19.756055"
+    },
+    {
+        "editor_id": 2554410020832,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\lohe.py",
+        "sequence": "Open",
+        "text_widget_id": 2554410020976,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-28T18:47:19.792944"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2554410020976,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-28T18:47:19.792944"
+    },
+    {
+        "index": "1.0",
+        "text": "def s\u00f6\u00f6k(lohe, madu, saurus):\n    p\u00e4ev = 0\n    while lohe != 0 and madu != 0 or madu != 0 and saurus != 0 or saurus != 0 and lohe != 0:\n        p\u00e4ev += 1\n        #hommikus\u00f6\u00f6k lohe s\u00f6\u00f6b \u00fche mao\n        madu = madu - 1 * lohe\n        if madu < 0:\n            madu = 0\n            pass\n        #l\u00f5unas\u00f6\u00f6k madu s\u00f6\u00f6b \u00fche sauruse\n        saurus = saurus - 1 * madu\n        if saurus < 0:\n            saurus = 0\n            pass\n        #\u00f5htus\u00f6\u00f6k saurus s\u00f6\u00f6b lohe\n        lohe = lohe - 1 * saurus\n        if lohe < 0:\n            lohe = 0\n            pass\n    print(\"Viimane s\u00f6\u00f6gikord toimus \", p\u00e4ev, \". p\u00e4eval\")\n    if lohe > 0:\n        print(\"J\u00e4rele j\u00e4i\", round(lohe), \"lohe\")\n    elif madu > 0:\n        print(\"J\u00e4rele j\u00e4i\", round(madu), \"madu\")\n    elif saurus > 0:\n        print(\"J\u00e4rele j\u00e4i\", round(saurus), \"saurust\")\n        \nlohe = float(input(\"Mitu lohe?: \"))\nmadu = float(input(\"Mitu madu?: \"))\nsaurus = float(input(\"Mitu saurust?: \"))\ns\u00f6\u00f6k(lohe, madu, saurus)\n    \n        \n        ",
+        "tags": "None",
+        "text_widget_id": 2554410020976,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-28T18:47:19.820612"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-28T18:47:19.820612"
+    },
+    {
+        "widget_id": 2554368798880,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T18:47:20.047748"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2554409880544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T18:47:20.391578"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2554409880544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T18:47:20.392775"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2554409880544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-28T18:47:20.392775"
+    },
+    {
+        "widget_id": 2554368798880,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-28T18:48:54.126907"
+    },
+    {
+        "widget_id": 2554368798880,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T18:49:14.202086"
+    },
+    {
+        "widget_id": 2554368798880,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-09-28T18:59:35.290834"
+    },
+    {
+        "widget_id": 2554368798880,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-28T19:01:31.534425"
+    }
+]

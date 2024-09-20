@@ -1,0 +1,120 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-01T12:00:51.460646"
+    },
+    {
+        "editor_id": 1996919845072,
+        "editor_class": "Editor",
+        "text_widget_id": 1996919845120,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-01T12:00:51.513012"
+    },
+    {
+        "editor_id": 1996919845072,
+        "editor_class": "Editor",
+        "sequence": "NewFile",
+        "text_widget_id": 1996919845120,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-01T12:00:51.513012"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-01T12:00:51.524025"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T12:00:51.765661"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1996919704544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T12:00:52.200370"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1996919704544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T12:00:52.200370"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1996919704544,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-01T12:00:52.200370"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-01T12:00:55.398014"
+    },
+    {
+        "widget_id": 1996949031040,
+        "widget_class": "Frame",
+        "sequence": "<Button-3>",
+        "time": "2023-11-01T12:00:57.474888"
+    },
+    {
+        "widget_id": 1996949034736,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-01T12:00:58.439368"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T12:00:58.671721"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-01T12:01:04.318578"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T12:01:16.290377"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-01T12:01:18.199687"
+    },
+    {
+        "widget_id": 1996879081632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-01T12:01:20.293534"
+    }
+]

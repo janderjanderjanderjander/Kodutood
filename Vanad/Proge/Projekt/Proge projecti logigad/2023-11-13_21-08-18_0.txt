@@ -1,0 +1,200 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:08:18.755119"
+    },
+    {
+        "editor_id": 2794242158560,
+        "editor_class": "Editor",
+        "text_widget_id": 2794242158704,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-13T21:08:18.802473"
+    },
+    {
+        "editor_id": 2794242158560,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\Logide backup\\Sorter.py",
+        "sequence": "Open",
+        "text_widget_id": 2794242158704,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-13T21:08:18.842948"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2794242158704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-13T21:08:18.844055"
+    },
+    {
+        "index": "1.0",
+        "text": "import os\nimport shutil\nfrom datetime import datetime\n\ndef sort_files_by_date(folder_path):\n    # Get a list of all text files in the folder\n    files = [f for f in os.listdir(folder_path) if f.endswith('.txt')]\n\n    for file_name in files:\n        # Extract the date from the file name (assuming the date is in the format YYYY-MM-DD)\n        date_str = file_name.split('_')[0]  # Extract the date part\n        file_date = datetime.strptime(date_str, '%Y-%m-%d').date()\n\n        # Create a folder for the date if it doesn't exist\n        date_folder_path = os.path.join(folder_path, str(file_date))\n        if not os.path.exists(date_folder_path):\n            os.makedirs(date_folder_path)\n\n        # Move the file to the corresponding folder\n        file_path = os.path.join(folder_path, file_name)\n        new_file_path = os.path.join(date_folder_path, file_name)\n        shutil.move(file_path, new_file_path)\n\nif __name__ == \"__main__\":\n    # Set the path to the local folder\n    local_folder_path = '.'  # You can change this to the desired folder path\n\n    # Call the function to sort files by date\n    sort_files_by_date(local_folder_path)\n",
+        "tags": "None",
+        "text_widget_id": 2794242158704,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-13T21:08:18.871195"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-13T21:08:18.877290"
+    },
+    {
+        "widget_id": 2794200740000,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-13T21:08:19.124676"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:19.761810"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:19.762787"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:19.763786"
+    },
+    {
+        "widget_id": 2794242396064,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-13T21:08:22.000178"
+    },
+    {
+        "index1": "2.4",
+        "index2": "3.0",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.064559"
+    },
+    {
+        "index": "2.4",
+        "text": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\Logide backup'\n%Run Sorter.py\n",
+        "tags": "('magic', 'toplevel', 'command')",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.068183"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.070286"
+    },
+    {
+        "cmd_line": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\Logide backup'\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-13T21:08:22.072107"
+    },
+    {
+        "command_text": "%cd 'C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\Logide backup'\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-13T21:08:22.076187"
+    },
+    {
+        "index": "3.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.085445"
+    },
+    {
+        "index1": "4.0",
+        "index2": "4.0",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.086472"
+    },
+    {
+        "index1": "1.0",
+        "index2": "4.0",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextDelete",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.089524"
+    },
+    {
+        "cmd_line": "%Run Sorter.py\n",
+        "sequence": "MagicCommand",
+        "time": "2023-11-13T21:08:22.090721"
+    },
+    {
+        "command_text": "%Run Sorter.py\n",
+        "sequence": "ShellCommand",
+        "time": "2023-11-13T21:08:22.092061"
+    },
+    {
+        "index": "1.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2794242018272,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-13T21:08:22.326060"
+    }
+]

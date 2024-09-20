@@ -1,0 +1,108 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T18:08:00.033941"
+    },
+    {
+        "editor_id": 2815389643104,
+        "editor_class": "Editor",
+        "text_widget_id": 2815389643056,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-09-21T18:08:00.065417"
+    },
+    {
+        "editor_id": 2815389643104,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Kook.py",
+        "sequence": "Open",
+        "text_widget_id": 2815389643056,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-09-21T18:08:00.065417"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2815389643056,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-09-21T18:08:00.065417"
+    },
+    {
+        "index": "1.0",
+        "text": "import random\nnumber = random.randint (0, 100)\n\nwhile True:\n    print(number)\n    number = random.randint (0, 1)\n    if round(number/2) == number/2 and round(number/3) == number/3 and round(number/231323132113) == number/231323132113:\n        print(number)\n        print(\"Tuli \u00e4ra\")\n        break",
+        "tags": "None",
+        "text_widget_id": 2815389643056,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-09-21T18:08:00.074466"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-09-21T18:08:00.081548"
+    },
+    {
+        "widget_id": 2817496297632,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-09-21T18:08:00.508271"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2815389502432,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:08:00.555637"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2815389502432,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:08:00.572616"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2815389502432,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-09-21T18:08:00.572616"
+    },
+    {
+        "widget_id": 2815389508768,
+        "widget_class": "EditorNotebook",
+        "sequence": "<Button-1>",
+        "time": "2023-09-21T18:08:05.468013"
+    },
+    {
+        "editor_id": 2815389643104,
+        "editor_class": "Editor",
+        "text_widget_id": 2815389643056,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextDestroyed",
+        "time": "2023-09-21T18:08:05.652688"
+    }
+]

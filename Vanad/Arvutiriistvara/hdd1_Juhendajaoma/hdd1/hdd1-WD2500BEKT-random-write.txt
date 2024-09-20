@@ -1,0 +1,12 @@
+HD Tune Pro: WDC WD2500BEKT-66F3T2 (#     WD-WX81AA010117) Random Access
+
+Test capacity: full
+
+Write test
+
+Transfer size	operations / sec	avg. access time	max. access time	avg. speed
+512 bytes	178 IOPS	5.598 ms	16.968 ms	0.087 MB/s
+4 KB	165 IOPS	6.026 ms	16.636 ms	0.648 MB/s
+64 KB	142 IOPS	7.012 ms	17.203 ms	8.913 MB/s
+1 MB	35 IOPS	28.298 ms	156.478 ms	35.337 MB/s
+Random	58 IOPS	17.193 ms	75.373 ms	29.510 MB/s

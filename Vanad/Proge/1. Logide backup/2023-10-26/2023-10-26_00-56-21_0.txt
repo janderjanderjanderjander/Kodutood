@@ -1,0 +1,162 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-26T00:56:21.891402"
+    },
+    {
+        "editor_id": 2621205491680,
+        "editor_class": "Editor",
+        "text_widget_id": 2621205491824,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-10-26T00:56:21.942791"
+    },
+    {
+        "editor_id": 2621205491680,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\test.py",
+        "sequence": "Open",
+        "text_widget_id": 2621205491824,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-10-26T00:56:21.942791"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 2621205491824,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-10-26T00:56:21.942791"
+    },
+    {
+        "index": "1.0",
+        "text": "temperatuurid = []\nfail = open(\"arvud.txt\")\nfor rida in fail:\n    \u00fche_p\u00e4eva_temperatuurid = []\n    osad = rida.split()\n    \u00fche_p\u00e4eva_temperatuurid.append(float(osad[1]))\n    \u00fche_p\u00e4eva_temperatuurid.append(float(osad[0]))\n    temperatuurid.append(\u00fche_p\u00e4eva_temperatuurid)\nfail.close()\n \nprint(temperatuurid)",
+        "tags": "None",
+        "text_widget_id": 2621205491824,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T00:56:21.954332"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-26T00:56:21.954332"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T00:56:22.138487"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 2621205351392,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T00:56:22.413394"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 2621205351392,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T00:56:22.413394"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 2621205351392,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T00:56:22.413394"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T00:56:22.893518"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T00:56:42.161184"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T00:56:46.188202"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T01:07:34.428531"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T01:07:34.993763"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T01:12:31.320210"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T01:12:31.322185"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T01:12:31.322185"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T01:12:31.349226"
+    },
+    {
+        "widget_id": 2621164597408,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T01:12:35.662989"
+    },
+    {
+        "editor_id": 2621205491680,
+        "editor_class": "Editor",
+        "text_widget_id": 2621205491824,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextDestroyed",
+        "time": "2023-10-26T01:12:35.676231"
+    }
+]

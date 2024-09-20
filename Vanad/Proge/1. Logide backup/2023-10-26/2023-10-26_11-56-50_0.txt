@@ -1,0 +1,432 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-26T11:56:50.860463"
+    },
+    {
+        "editor_id": 1930607833056,
+        "editor_class": "Editor",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-10-26T11:56:50.908842"
+    },
+    {
+        "editor_id": 1930607833056,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\filmid.py",
+        "sequence": "Open",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-10-26T11:56:50.951233"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-10-26T11:56:50.959212"
+    },
+    {
+        "index": "1.0",
+        "text": "def loetleFilmid(zanr):\n    nimekiri = []\n    if zanr == \"m\u00e4rul\":\n        zanr = \"m\u00c3\u00a4rul\"\n    elif zanr == \"\u00f5udukas\":\n        zanr = \"\u00c3\u00b5udukas\"\n    fail = open(\"filmid.txt\")\n    for i in fail:\n        z = i.split()\n        if zanr in z:\n            film = None\n            for s\u00f5na in z:\n                if s\u00f5na == \"-\":\n                    break\n                else:\n                    if film == None:\n                        film = s\u00f5na\n                    else:\n                        film = film + \" \" + s\u00f5na\n            nimekiri.append(film)\n    if nimekiri == []:\n        return -1\n    else:\n        return nimekiri\ndef lisaFilm(nimi, zanr):\n    fail = open(\"filmid.txt\", \"a\")\n    fail.write(\"\\n\" + nimi + \" - \" + zanr)\n    fail.close()\ndef kustutaFilm(t\u00e4isnimi):\n    if \"m\u00e4rul\" in t\u00e4isnimi.split():\n        uusnimi = None\n        for i in t\u00e4isnimi.split():\n            if uusnimi == None:\n                uusnimi = i\n            elif i == \"m\u00e4rul\":\n                uusnimi = uusnimi + \" m\u00c3\u00a4rul\"\n            else:\n                uusnimi = uusnimi + \" \" + i\n        t\u00e4isnimi = uusnimi\n    if \"\u00f5udukas\" in t\u00e4isnimi.split():\n        uusnimi = None\n        for i in t\u00e4isnimi.split():\n            if uusnimi == None:\n                uusnimi = i\n            elif i == \"\u00f5udukas\":\n                uusnimi = uusnimi + \" \u00c3\u00b5udukas\"\n            else:\n                uusnimi = uusnimi + \" \" + i\n        t\u00e4isnimi = uusnimi\n    fail = open(\"filmid.txt\", \"r\")\n    read = fail.readlines()\n    fail = open(\"filmid.txt\", \"w\")\n    for rida in read:\n        if rida.strip(\"\\n\") != t\u00e4isnimi:\n            fail.write(rida)\n    fail.close()\n    \nprint(\"Tee valik:\")\nprint(\"\tVaata filme (V)\")\nprint(\"\tLisa film (L)\")\nprint(\"\tKustuta film (K)\")\nprint(\"\tL\u00f5peta (E)\")\n\n\nwhile True:\n    valik = input(\"Valik: \")\n    if valik == \"V\":\n        zanr = input(\"Sisesta zanr: \")\n        if loetleFilmid(zanr) == -1:\n            print(\"Sellest \u017eanrist ei ole \u00fchtegi filmi\")\n        else:\n            for rida in loetleFilmid(zanr):\n                print(rida)\n            print(\" \")\n    elif valik == \"L\":\n        nimi = input(\"Sisesta filmi nimi: \")\n        zanr = input(\"Sisesta zanr: \")\n        lisaFilm(nimi, zanr)\n        print(\"Film lisatud!\")\n        print(\" \")\n    elif valik == \"K\":\n        kust = input(\"Sisesta filmi nimi kustutamiseks: \")\n        kustutaFilm(kust)\n        print(\"Film nimekirjast kustutatud!\")\n        print(\" \")\n    elif valik == \"E\":\n        break\n    else:\n        print(\"Sellist valikut pole\")\n        print(\" \")\n",
+        "tags": "None",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T11:56:50.984317"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-10-26T11:56:50.984317"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:56:51.188837"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1930607692768,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T11:56:51.442490"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1930607692768,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T11:56:51.446575"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1930607692768,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-10-26T11:56:51.446575"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:56:58.573476"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:01.002843"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:57:03.043809"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:57:27.426179"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:57:27.426179"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:57:27.426179"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:32.374996"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:34.163788"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:35.430575"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:36.505535"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:39.101336"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:40.155376"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:41.916744"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:42.680727"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:49.454244"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:57:51.362200"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:57:58.389572"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:58:30.143547"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:31.603564"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:34.178425"
+    },
+    {
+        "index": "28.16",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T11:58:34.901420"
+    },
+    {
+        "index": "29.0",
+        "text": "    ",
+        "tags": "None",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T11:58:34.910202"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:36.448024"
+    },
+    {
+        "index": "24.23",
+        "text": "\n",
+        "tags": "None",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T11:58:37.086334"
+    },
+    {
+        "index": "25.0",
+        "text": "        ",
+        "tags": "None",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "time": "2023-10-26T11:58:37.095798"
+    },
+    {
+        "index1": "25.4",
+        "index2": "25.8",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-10-26T11:58:37.133292"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:58:39.093765"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:58:39.921110"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:58:42.184239"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:58:43.527607"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:51.005552"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:52.837396"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:53.920407"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T11:58:54.776445"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T11:59:14.481979"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T11:59:16.330049"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T12:00:36.192304"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T12:02:03.457988"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T12:03:37.790373"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T12:03:43.165223"
+    },
+    {
+        "widget_id": 1930607833200,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1930607833200,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-10-26T12:09:22.048551"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T12:09:24.963439"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T12:20:22.178452"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-10-26T12:20:23.064948"
+    },
+    {
+        "widget_id": 1932713504928,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-10-26T12:20:24.562464"
+    }
+]

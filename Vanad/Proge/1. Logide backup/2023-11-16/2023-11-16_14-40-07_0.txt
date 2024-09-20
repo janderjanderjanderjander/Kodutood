@@ -1,0 +1,174 @@
+[
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-16T14:40:07.713429"
+    },
+    {
+        "editor_id": 1217527263584,
+        "editor_class": "Editor",
+        "text_widget_id": 1217527263536,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-16T14:40:07.761830"
+    },
+    {
+        "editor_id": 1217527263584,
+        "editor_class": "Editor",
+        "filename": "C:\\Users\\ThinkpadT490s\\Desktop\\Kodut\u00f6\u00f6d\\Programmeerimine\\\u00dclesanded\\2023-11-13\\Vanemad.py",
+        "sequence": "Open",
+        "text_widget_id": 1217527263536,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-16T14:40:07.776685"
+    },
+    {
+        "index1": "1.0",
+        "index2": "2.0",
+        "text_widget_id": 1217527263536,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextDelete",
+        "time": "2023-11-16T14:40:07.776685"
+    },
+    {
+        "index": "1.0",
+        "text": "fail1 = \"lapsed.txt\"\nfail2 = \"nimed.txt\"\ndef seosta_lapsed_ja_vanemad(fail1, fail2):\n    lapsed = []\n    vanemad = []\n    seosed = {}\n    v\u00e4ljund = {}\n    fail = open(fail1, \"r\", encoding=\"UTF-8\")\n    for rida in fail:\n        rida = rida.strip().split()\n        lapsed.append(rida[0])\n        vanemad.append(rida[1])\n    fail.close()\n    fail = open(fail2, \"r\", encoding=\"UTF-8\")\n    for rida in fail:\n        rida = rida.strip().split()\n        seosed[rida[0]] = rida[1] + \" \" + rida[2]\n    mitu = -1\n    for i in vanemad:\n        mitu += 1\n        if seosed[i] in list(v\u00e4ljund.keys()):\n            m\u00e4lu = v\u00e4ljund[seosed[i]]\n            m\u00e4lu.add(seosed[lapsed[mitu]])\n            v\u00e4ljund[seosed[i]] = m\u00e4lu\n        else:\n            v\u00e4ljund[seosed[i]] = {seosed[lapsed[mitu]]}\n    return v\u00e4ljund\nse = seosta_lapsed_ja_vanemad(fail1, fail2)\nss = list(se.items())\nss[0], ss[1], ss[2], ss[3] = ss[3], ss[1], ss[0], ss[2]\ns = dict(ss)\nfor i in s:\n    S = \", \".join(s[i])\n    print(i + \": \" + S)\n    ",
+        "tags": "None",
+        "text_widget_id": 1217527263536,
+        "text_widget_class": "EditorCodeViewText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "time": "2023-11-16T14:40:07.811268"
+    },
+    {
+        "view_id": "ShellView",
+        "view_class": "ShellView",
+        "sequence": "ShowView",
+        "time": "2023-11-16T14:40:07.818950"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-16T14:40:08.058055"
+    },
+    {
+        "index": "1.0",
+        "text": "Python 3.10.11 (C:\\Users\\ThinkpadT490s\\AppData\\Local\\Programs\\Thonny\\python.exe)",
+        "tags": "('welcome',)",
+        "text_widget_id": 1217527122912,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-16T14:40:08.648916"
+    },
+    {
+        "index": "1.80",
+        "text": "\n",
+        "tags": "('io',)",
+        "text_widget_id": 1217527122912,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": true,
+        "trivial_for_parens": true,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-16T14:40:08.648916"
+    },
+    {
+        "index": "2.0",
+        "text": ">>> ",
+        "tags": "('toplevel', 'prompt')",
+        "text_widget_id": 1217527122912,
+        "text_widget_class": "ShellText",
+        "trivial_for_coloring": false,
+        "trivial_for_parens": false,
+        "sequence": "TextInsert",
+        "text_widget_context": "shell",
+        "time": "2023-11-16T14:40:08.648916"
+    },
+    {
+        "widget_id": 1217527848464,
+        "widget_class": "Button",
+        "sequence": "<Button-1>",
+        "time": "2023-11-16T14:40:13.723374"
+    },
+    {
+        "editor_id": 1217527937680,
+        "editor_class": "Editor",
+        "text_widget_id": 1217528038304,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextCreated",
+        "time": "2023-11-16T14:40:13.884622"
+    },
+    {
+        "editor_id": 1217527937680,
+        "editor_class": "Editor",
+        "sequence": "NewFile",
+        "text_widget_id": 1217528038304,
+        "text_widget_class": "EditorCodeViewText",
+        "time": "2023-11-16T14:40:13.886640"
+    },
+    {
+        "widget_id": 1217527129248,
+        "widget_class": "EditorNotebook",
+        "sequence": "<Button-1>",
+        "time": "2023-11-16T14:40:14.657324"
+    },
+    {
+        "editor_id": 1217527263584,
+        "editor_class": "Editor",
+        "text_widget_id": 1217527263536,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "EditorTextDestroyed",
+        "time": "2023-11-16T14:40:14.812951"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-16T14:40:16.019100"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-16T14:40:26.696053"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-16T14:40:35.237358"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-16T14:41:28.203207"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusOut>",
+        "time": "2023-11-16T14:42:38.015268"
+    },
+    {
+        "widget_id": 1217486041248,
+        "widget_class": "Workbench",
+        "sequence": "<FocusIn>",
+        "time": "2023-11-16T14:43:49.036795"
+    },
+    {
+        "widget_id": 1217528038304,
+        "widget_class": "EditorCodeViewText",
+        "text_widget_id": 1217528038304,
+        "text_widget_class": "EditorCodeViewText",
+        "sequence": "<Button-1>",
+        "time": "2023-11-16T14:43:49.045311"
+    }
+]
