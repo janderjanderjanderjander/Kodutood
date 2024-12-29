@@ -1,0 +1,36 @@
+Projekti kasutusjuhend:
+
+main.c:
+    Siin peab valima kas interpret või interpret2.
+    Ainult interpret2 funktioon suudab tõlkida asm koodiks!!
+
+interpret:
+    Et esimest interpret jooksutada, siis võib seda teha manuaalselt, aga soovitan makefile'ga:
+        make run RUN_ARG=",+."
+
+    Hiljem võib teha :
+        make clean
+
+interpret2:
+        ! Vaja komenteerida interpret() ja võtta ära interpret2() funktioonilt kommentaarid
+    Et proovida niisama jooksutamist, siis on sama, mis interpret.
+
+    Et proovida asm tõlkimist:
+        ! Vaja kommenteerida main.c failis run() funktsioon 
+        ! Vaja eemaldada kommentaar printAsm() funtksioonilt
+        1. Kasuta käsku: (ei jooksuta programmi)
+            make
+        
+        2. Navigeeri lib kausta
+            cd /lib
+
+        3. Kasuta käsku et kirjutada fail: (.asm nimi võib olla suvaline)
+            ./bfi ",+." > hello.asm
+            (vahepeal peab enter vajutama ka :D)
+
+        4. Navigeeri tagasi make kausta
+            cd ..
+
+        5. Käivita asm programm (Võib ka kohe käivitada. Mul oli kaks terminali lahti)
+            make arun
+    
